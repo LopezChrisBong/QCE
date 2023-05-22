@@ -1,4 +1,34 @@
-<script setup>
+<template>
+  <main>
+    <div>
+  <nav class="flex justify-left space-x-4 bg-green-500">
+  <img alt="Vue logo" class="logo" src="./assets/pix/SummerLms.gif" width="125" height="125" />
+  <a href="/dashboard" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
+  <a href="/team" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Team</a>
+  <a href="/projects" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</a>
+  <a href="/reports" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Reports</a>
+</nav>
+  </div>
+  </main>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -44,4 +74,4 @@ header {
     flex-wrap: wrap;
   }
 }
-</style>
+</style> -->
