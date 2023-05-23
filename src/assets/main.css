@@ -4,6 +4,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.sec_nav{
+  margin-left: 10.5rem;
+}
+.sec_nav a{
+  color: white;
+}
+.nav_sec{
+  background-color: #209D00;
+}
+#Faculty_text{
+  font-size: 2.2rem;
+  margin-left: 8rem;
+}
+#Button_Next{
+  direction: rtl;
+
+}
+table th{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+table .td-left {
+  text-align: center;
+}
+
+
 
 /* 
 
