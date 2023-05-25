@@ -22,13 +22,17 @@
 
 }
 table th{
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top:.5rem;
 }
 table .td-left {
   text-align: center;
 }
-
+table .Range{
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
 
 
 /* 
