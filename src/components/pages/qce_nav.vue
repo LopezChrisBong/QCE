@@ -17,7 +17,6 @@
             </select>
             <img src="../../assets/pix/Profile.png" alt="" width="50" height="50">
         </div>
-          
   </div>
   <div>
       <nav class="flex justify-left  nav_sec">

@@ -6,7 +6,7 @@
         <div class="stepper">
             <div class="stepper-progress">
                 <div class="stepper-progress-bar" style="width: '+stepperProgress';">
-                    <div class="stepper-item" :class="{'current': step == item, 'succes': step > item}" v-for="item in 4" :key="item">
+                    <div class="stepper-item" :class="{'current': step == item, 'success': step > item}" v-for="item in 4" :key="item">
                         <div class="stepper-item-counter">
                             <img class="icon-success" src="" alt="">
                             <span class="numbers">
@@ -34,7 +34,7 @@
             </div>
     </div>
    </div>
-    </div>
+</div>
   
 </template>
 
