@@ -38,8 +38,8 @@
 <template>
 
   <div class="steps-container ml-8" :style="cssStyle">
-      <ul class="steps-list">
-        <li class="step" v-for="(step, index) in data.steps" :key="index" :class="(index == data.currentStep) ? 'step-active':'', (index < data.currentStep) ? 'step-done' : '', (index ==0 && index ==data.currentStep) ? 'step-done-in-advance' :''">
+      <ul class="steps-list" >
+        <li class="step" v-for="(step, index) in data.steps" :key="itemitem" :class="(index == data.currentStep) ? 'step-active':'', (index < data.currentStep) ? 'step-done' : '', (index ==0 && index ==data.currentStep) ? 'step-done-in-advance' :''">
           <div class="step-bubble">
             <div class="step-count">{{ index + 1 }}</div>
           </div>
@@ -50,9 +50,11 @@
         </li>
       </ul>
   </div>
-
-  <div class="stepper-content">
-    <div class="stepper-pane"></div>
+<div>
+  
+</div>
+  <div class="stepper-content" >
+    <div class="stepper-pane">{{count}}</div>
   </div>
 
 </template>

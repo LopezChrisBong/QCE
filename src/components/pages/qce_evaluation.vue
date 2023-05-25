@@ -10,6 +10,7 @@ const dataSteps ={
   passiveColor:'#84cc16',
 };
 
+
 </script>
 <template>
   <Response :data="dataSteps" ref="stepProgress"/>
@@ -19,7 +20,7 @@ const dataSteps ={
   </div>
 
   <div class=" btn button-next bg-green-500">
-    <button @click="stepProgress.nextStep" :disabled="currentStep==6">Next</button>
+    <button @click="stepProgress.nextStep" :disabled="step==6">Next</button>
   </div>
   </div>
   
