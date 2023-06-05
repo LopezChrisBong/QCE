@@ -9,21 +9,20 @@ const dataSteps ={
   activeColor:'#65a30d',
   passiveColor:'#84cc16',
 };
-
-
 </script>
 <template>
   <Response :data="dataSteps" ref="stepProgress"/>
+  <div></div>
+  
   <div class="flex justify-between mr-5 ml-5 mt-10">
     <div class="btn button-prev">
-    <button @click="stepProgress.previousStep" :disabled="currentStep==1">Previous</button>
+    <button @click="stepProgress.previousStep" :disabled="dataSteps== 'Steps 1'">Previous </button>
   </div>
 
   <div class=" btn button-next bg-green-500">
-    <button @click="stepProgress.nextStep" :disabled="step==6">Next</button>
+    <button @click="stepProgress.nextStep" :disabled="dataSteps=='Steps 6'">Next</button>
   </div>
   </div>
-  
 </template>
 
 

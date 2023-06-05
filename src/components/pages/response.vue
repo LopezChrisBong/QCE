@@ -18,14 +18,13 @@
                         </span>
                     </div>
                 </div>
-                <div class="stepper-content" v-for="item in 4" :key="item">
-                    <div class="stepper-pane" v-if="step == item">
-                        <span>{{item}}</span>
+                <div class="stepper-content" >
+                    <div class="stepper-pane">
                     </div>
                 </div>
                 <div class="controls">
                     <button class="btn" @click="step--" :disabled="step == 1">
-                        Previous
+                        Previous 
                     </button>
                     <button class="btn btn--green-1 " @click="step++" :disabled="step == 4">
                         Next

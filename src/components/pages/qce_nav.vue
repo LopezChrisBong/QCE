@@ -5,7 +5,7 @@
             <nav class="flex justify-left space-x-10 main-nav ">
             <img alt="Vue logo" class="logo" src="../../assets/pix/SummerLms.gif" width="125" height="125" />
             <a href="/home" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Home</a>
-            <a href="/dashboard" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>
+            <a href="/Commitment" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>
             </nav>
         </div>
         <div class="flex mr-4 z-index-1">
