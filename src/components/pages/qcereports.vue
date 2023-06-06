@@ -10,7 +10,7 @@
                   <ul class="pt-2 pb-4 space-y-1 text-sm">
                       <li class="rounded-sm">
                           <a
-                              href="#"
+                              href="/"
                               class="flex items-center p-2 space-x-3 rounded-md"
                           >
                               <svg
@@ -133,66 +133,25 @@
           </div>
       </div>
       <div class="container mx-auto mt-12">
-            <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
-                <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
-                        Students
-                    </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
-                      6,230 Evaluators
-                    </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
-                      6,230 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
-                    <div class="text-sm font-medium bg-green-500 truncate line-fill">
-                      s
-                    </div>
-                    
-                </div>
-                <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
-                        Peer
-                    </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
-                      63 Evaluators
-                    </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
-                      63 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
-                    <div class="text-sm font-medium bg-blue-500 truncate line-fill">
-                      s
-                    </div>
-                </div>
-                <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
-                        Self
-                    </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
-                      121 Evaluators
-                    </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
-                      121 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
-                    <div class="text-sm font-medium bg-orange-500 truncate line-fill">
-                      s
-                    </div>
-                </div>
-                <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
-                        Supervisor
-                    </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
-                      4 Evaluators
-                    </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
-                      4 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
-                    <div class="text-sm font-medium bg-violet-500 truncate line-fill">
-                      s
-                    </div>
+        <div class="flex justify-between">
+            <div class="mt-1 text-xl font-semibold text-gray-900">Bachelor of Science and Information Technology</div>
+            <div class="flex">
+               <div> <a
+                              href="Pdfreport"
+                              class="flex items-center p-2 space-x-3 rounded-md "
+                          ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5"><span>Print Report</span></button></a></div>
+               <div> <select name="" id="" class="border rounded-sm p-2.5 ml-4 mt-1.5">
+                <option value="Select" >Select</option>
+                <option value="Overall Report">Overall Report</option>
+                <option value="JO/COS">JO/COS</option>
+                <option value="Summary">Summary</option>
+                <option value="Individual">Individual</option>
+                
+                    </select>
                 </div>
             </div>
-            <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+        </div>
+           <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                 <div class="flex justify-between">
                   <div> <input type="text" placeholder="search" class="bg-gray-200 rounded-lg w-15 h-8"> </div>
                   <div><Button class="btn">Filter</Button></div>
@@ -202,10 +161,11 @@
                       <thead>
                         <tr>
                           <th >#</th>
-                          <th >Evaluator Name</th>
-                          <th >Date Evaluation</th>
-                          <th >Evaluator Type</th>
-                          <th >Evaluation Result</th>
+                          <th >Faculty Name</th>
+                          <th >Student</th>
+                          <th >Peer</th>
+                          <th >Self</th>
+                          <th >Supervisor</th>
                           <th ></th>
                         </tr>
                       </thead>
@@ -213,9 +173,10 @@
                         <tr>
                           <td>1</td>
                           <td>Jane Cooper</td>
-                          <td>2/19/21</td>
-                          <td>Student</td>
-                          <td>20</td>
+                          <td>25%</td>
+                          <td>16%</td>
+                          <td>20%</td>
+                          <td>20%</td>
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
@@ -224,9 +185,10 @@
                         <tr>
                           <td>2</td>
                           <td>Wade Warren</td>
-                          <td>5/7/16</td>
-                          <td>Peer</td>
-                          <td>14</td>
+                          <td>30%</td>
+                          <td>20%</td>
+                          <td>14%</td>
+                          <td>14%</td>
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
@@ -236,9 +198,10 @@
                         <tr>
                           <td>3</td>
                           <td>Esther Howard</td>
-                          <td>9/18/16</td>
-                          <td>Supervisor</td>
-                          <td>10</td>
+                          <td>20%</td>
+                          <td>12%</td>
+                          <td>10%</td>
+                          <td>10%</td>
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
@@ -248,24 +211,28 @@
                         <tr>
                           <td>4</td>
                           <td>Cameron Williamson</td>
-                          <td>2/11/12</td>
-                          <td>Student</td>
-                          <td>16</td>
+                          <td>15%</td>
+                          <td>15%</td>
+                          <td>16%</td>
+                          <td>16%</td>
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
                           ><button class="btn">View</button></a></td>
+
                         </tr>
                          <tr>
                           <td>5</td>
                           <td>Brooklyn Simmons</td>
-                          <td>9/18/16</td>
-                          <td>Student</td>
-                          <td>17</td>
+                          <td>17%</td>
+                          <td>19%</td>
+                          <td>17%</td>
+                          <td>17%</td>
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
                           ><button class="btn">View</button></a></td>
+
                         </tr>
                       </tbody>
                     </table>
@@ -298,5 +265,6 @@ table td{
   padding: 1rem;
   align-content: right;
 }
+
 
 </style>

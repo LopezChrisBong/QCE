@@ -11,8 +11,9 @@ import Independent from '../components/pages/independent.vue'
 import Management from '../components/pages/management.vue'
 import Comments from '../components/pages/comments.vue'
 import Review from '../components/pages/review.vue'
-
-
+import QCEReport from '../components/pages/qcereports.vue'
+import FacultyReport from '../components/pages/facultyreport.vue'
+import Pdfreport from '../components/pages/pdfreport.vue'
 const routes =[
     {
         path: '/',
@@ -58,7 +59,19 @@ const routes =[
         path: '/review',
         component: Review
     },
-    
+    {
+        path: '/qcereport',
+        component: QCEReport
+    }, 
+    {
+        path: '/facultyreport',
+        component: FacultyReport
+    }, 
+    {
+        path: '/pdfreport',
+        component: Pdfreport
+    }, 
+
 ]
 
 const router = createRouter({
