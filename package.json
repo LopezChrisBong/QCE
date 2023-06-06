@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nestjs/serve-static": "^3.0.1",
     "vue": "^3.3.2",
     "vue-grid-responsive": "^0.5.0",
     "vue-resize-text": "^0.1.1",

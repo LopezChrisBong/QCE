@@ -8,6 +8,7 @@
               </div>
               <div class="flex-1">
                   <ul class="pt-2 pb-4 space-y-1 text-sm">
+                    
                       <li class="rounded-sm">
                           <a
                               href="#"
@@ -77,6 +78,8 @@
                               <span>QCE Question</span>
                           </a>
                       </li>
+
+                      
                       <li class="rounded-sm  ">
                           <a
                               href="#"
@@ -128,6 +131,10 @@
                               <span>Logout</span>
                           </a>
                       </li>
+                      <li>
+                        <img src="../../assets/pix/Profile.png" alt="" width="50" height="50" class="ml-5">
+                      </li>
+                  
                   </ul>
               </div>
           </div>
@@ -298,5 +305,7 @@ table td{
   padding: 1rem;
   align-content: right;
 }
-
+.setting{
+  margin-top: 260%;
+}
 </style>

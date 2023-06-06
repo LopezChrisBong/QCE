@@ -128,6 +128,9 @@
                               <span>Logout</span>
                           </a>
                       </li>
+                      <li>
+                        <img src="../../assets/pix/Profile.png" alt="" width="50" height="50" class="ml-5">
+                      </li>
                   </ul>
               </div>
           </div>

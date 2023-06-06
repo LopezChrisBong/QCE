@@ -1,6 +1,6 @@
 <template>
- <div>
-    <div class="flex justify-between ml-8">
+ <div class="">
+    <div class="flex justify-between ml-8 sticky">
         <div>
             <nav class="flex justify-left space-x-10 main-nav ">
             <img alt="Vue logo" class="logo" src="../../assets/pix/SummerLms.gif" width="125" height="125" />
@@ -28,6 +28,9 @@
   </div>
 
 </div> 
-
-
 </template>
+<style>
+.sticky{
+    position: sticky;
+}
+</style>
