@@ -72,7 +72,7 @@
         
         <div class="buttons">
         <button class="rouded-full">5. Outstanding</button>
-        <button>4. Very Satisfaction</button>
+        <button >4. Very Satisfaction</button>
         <button>3. Satisfaction</button>
         <button>2. Fair</button>
         <button>1. Poor</button>

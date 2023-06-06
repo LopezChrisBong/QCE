@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@nestjs/serve-static": "^3.0.1",
+    "json-server": "^0.17.3",
     "vue": "^3.3.2",
     "vue-grid-responsive": "^0.5.0",
     "vue-resize-text": "^0.1.1",
     "vue-router": "^4.0.13",
+    "vue-search-input": "^1.1.11",
     "vuetify": "^3.3.1"
   },
   "devDependencies": {

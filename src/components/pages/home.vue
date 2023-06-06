@@ -309,3 +309,7 @@ table td{
   margin-top: 260%;
 }
 </style>
+
+<script>
+import SearchInput from 'vue-search-input'
+</script>
