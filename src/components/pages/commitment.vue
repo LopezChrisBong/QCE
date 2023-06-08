@@ -3,6 +3,7 @@ export default {
   data() {
     return {
       color: 'none',
+      
       font: {
       },
       color1: 'none',
@@ -112,48 +113,48 @@ export default {
         <p>1. Demonstrates sensitivity to student’s ability to attend and absorb content information.</p>
         
         <div class="buttons">
-        <button @click="color = 'blue'"  class="rouded-full buto">5. Outstanding</button>
-        <button @click="color1 = 'blue'" class="buto1">4. Very Satisfaction</button>
-        <button @click="color2 = 'blue'" class="buto2"> 3. Satisfaction</button>
-        <button @click="color3 = 'blue'" class="buto3">2. Fair</button>
-        <button @click="color4 = 'blue'" class="buto4">1. Poor</button>
+        <button @click="color = 'green'"  class="rouded-full buto">5. Outstanding</button>
+        <button @click="color1 = 'green'" class="buto1">4. Very Satisfaction</button>
+        <button @click="color2 = 'green'" class="buto2"> 3. Satisfaction</button>
+        <button @click="color3 = 'green'" class="buto3">2. Fair</button>
+        <button @click="color4 = 'green'" class="buto4">1. Poor</button>
         </div>
         
         <p>2. Integrates sensitivity his/her learning objectives with those of the students in a collaborative way.</p>
         
         <div class="buttons">
-        <button @click="color5 = 'blue'"  class="rouded-full buto5">5. Outstanding</button>
-        <button @click="color6 = 'blue'" class="buto6">4. Very Satisfaction</button>
-        <button @click="color7 = 'blue'" class="buto7">3. Satisfaction</button>
-        <button @click="color8 = 'blue'" class="buto8">2. Fair</button>
-        <button @click="color9 = 'blue'" class="buto9">1. Poor</button>
+        <button @click="color5 = 'green'"  class="rouded-full buto5">5. Outstanding</button>
+        <button @click="color6 = 'green'" class="buto6">4. Very Satisfaction</button>
+        <button @click="color7 = 'green'" class="buto7">3. Satisfaction</button>
+        <button @click="color8 = 'green'" class="buto8">2. Fair</button>
+        <button @click="color9 = 'green'" class="buto9">1. Poor</button>
         </div>
         <p>3. Makes self available to students beyond official time.</p>
         
         <div class="buttons">
-        <button @click="color10 = 'blue'"  class="rouded-full buto10">5. Outstanding</button>
-        <button @click="color11 = 'blue'" class="buto11">4. Very Satisfaction</button>
-        <button @click="color12 = 'blue'" class="buto12">3. Satisfaction</button>
-        <button @click="color13 = 'blue'" class="buto13">2. Fair</button>
-        <button @click="color14 = 'blue'" class="buto14">1. Poor</button>
+        <button @click="color10 = 'green'"  class="rouded-full buto10">5. Outstanding</button>
+        <button @click="color11 = 'green'" class="buto11">4. Very Satisfaction</button>
+        <button @click="color12 = 'green'" class="buto12">3. Satisfaction</button>
+        <button @click="color13 = 'green'" class="buto13">2. Fair</button>
+        <button @click="color14 = 'green'" class="buto14">1. Poor</button>
         </div>
         <p>4. Regularly comes to class on time, well - groomed and well - prepared to complete assigned responsibilities.</p>
         
         <div class="buttons">
-        <button @click="color15 = 'blue'"  class="rouded-full buto15">5. Outstanding</button>
-        <button @click="color16 = 'blue'" class="buto16">4. Very Satisfaction</button>
-        <button @click="color17 = 'blue'" class="buto17">3. Satisfaction</button>
-        <button @click="color18 = 'blue'" class="buto18">2. Fair</button>
-        <button @click="color19 = 'blue'" class="buto19">1. Poor</button>
+        <button @click="color15 = 'green'"  class="rouded-full buto15">5. Outstanding</button>
+        <button @click="color16 = 'green'" class="buto16">4. Very Satisfaction</button>
+        <button @click="color17 = 'green'" class="buto17">3. Satisfaction</button>
+        <button @click="color18 = 'green'" class="buto18">2. Fair</button>
+        <button @click="color19 = 'green'" class="buto19">1. Poor</button>
         </div>
         <p>5. Keeps accurate record of students’ performance and prompt submission of the same.</p>
         
         <div class="buttons">
-        <button @click="color20 = 'blue'"  class="rouded-full buto20">5. Outstanding</button>
-        <button  @click="color21 = 'blue'" class="buto21">4. Very Satisfaction</button>
-        <button  @click="color22 = 'blue'" class="buto22">3. Satisfaction</button>
-        <button  @click="color23 = 'blue'" class="buto23">2. Fair</button>
-        <button  @click="color24 = 'blue'" class="buto24">1. Poor</button>
+        <button @click="color20 = 'green'"  class="rouded-full buto20">5. Outstanding</button>
+        <button  @click="color21 = 'green'" class="buto21">4. Very Satisfaction</button>
+        <button  @click="color22 = 'green'" class="buto22">3. Satisfaction</button>
+        <button  @click="color23 = 'green'" class="buto23">2. Fair</button>
+        <button  @click="color24 = 'green'" class="buto24">1. Poor</button>
         </div>
       </div> 
         <div class="next">

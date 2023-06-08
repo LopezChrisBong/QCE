@@ -108,48 +108,48 @@ export default {
           <p>1. Creates teaching strategies that allow students to practice using concepts they need to understand (interactive discussion).</p>
           
           <div class="buttons">
-          <button @click="color = 'blue'"  class="rouded-full indep">5. Outstanding</button>
-          <button @click="color1 = 'blue'" class="indep1">4. Very Satisfaction</button>
-          <button @click="color2 = 'blue'" class="indep2"> 3. Satisfaction</button>
-          <button @click="color3 = 'blue'" class="indep3">2. Fair</button>
-          <button @click="color4 = 'blue'" class="indep4">1. Poor</button>
+          <button @click="color = 'green'"  class="rouded-full indep">5. Outstanding</button>
+          <button @click="color1 = 'green'" class="indep1">4. Very Satisfaction</button>
+          <button @click="color2 = 'green'" class="indep2"> 3. Satisfaction</button>
+          <button @click="color3 = 'green'" class="indep3">2. Fair</button>
+          <button @click="color4 = 'green'" class="indep4">1. Poor</button>
           </div>
           
           <p>2.  Enhances student self - esteem and/or gives due to practice using concepts they need to understand (interactive discussion).</p>
           
           <div class="buttons">
-            <button @click="color5 = 'blue'"  class="rouded-full indep5">5. Outstanding</button>
-            <button @click="color6 = 'blue'" class="indep6">4. Very Satisfaction</button>
-            <button @click="color7 = 'blue'" class="indep7">3. Satisfaction</button>
-            <button @click="color8 = 'blue'" class="indep8">2. Fair</button>
-            <button @click="color9 = 'blue'" class="indep9">1. Poor</button>
+            <button @click="color5 = 'green'"  class="rouded-full indep5">5. Outstanding</button>
+            <button @click="color6 = 'green'" class="indep6">4. Very Satisfaction</button>
+            <button @click="color7 = 'green'" class="indep7">3. Satisfaction</button>
+            <button @click="color8 = 'green'" class="indep8">2. Fair</button>
+            <button @click="color9 = 'green'" class="indep9">1. Poor</button>
           </div>
           <p>3. Allows students to crate their own course with objectives and realistically define student - professor rules and make them accountable for their performance.</p>
           
           <div class="buttons">
-            <button @click="color10 = 'blue'"  class="rouded-full indep10">5. Outstanding</button>
-            <button @click="color11 = 'blue'" class="indep11">4. Very Satisfaction</button>
-            <button @click="color12 = 'blue'" class="indep12">3. Satisfaction</button>
-            <button @click="color13 = 'blue'" class="indep13">2. Fair</button>
-            <button @click="color14 = 'blue'" class="indep14">1. Poor</button>
+            <button @click="color10 = 'green'"  class="rouded-full indep10">5. Outstanding</button>
+            <button @click="color11 = 'green'" class="indep11">4. Very Satisfaction</button>
+            <button @click="color12 = 'green'" class="indep12">3. Satisfaction</button>
+            <button @click="color13 = 'green'" class="indep13">2. Fair</button>
+            <button @click="color14 = 'green'" class="indep14">1. Poor</button>
           </div>
           <p>4. Allows students to think independently and make their own decisions and holding them accountable for their performance based largely on their success in executing decisions.</p>
           
           <div class="buttons">
-            <button @click="color15 = 'blue'"  class="rouded-full indep15">5. Outstanding</button>
-            <button @click="color16 = 'blue'" class="indep16">4. Very Satisfaction</button>
-            <button @click="color17 = 'blue'" class="indep17">3. Satisfaction</button>
-            <button @click="color18 = 'blue'" class="indep18">2. Fair</button>
-            <button @click="color19 = 'blue'" class="indep19">1. Poor</button>
+            <button @click="color15 = 'green'"  class="rouded-full indep15">5. Outstanding</button>
+            <button @click="color16 = 'green'" class="indep16">4. Very Satisfaction</button>
+            <button @click="color17 = 'green'" class="indep17">3. Satisfaction</button>
+            <button @click="color18 = 'green'" class="indep18">2. Fair</button>
+            <button @click="color19 = 'green'" class="indep19">1. Poor</button>
           </div>
           <p>5. Encourages students to learn beyond what is required and help/guide the students how to apply the concepts learned.</p>
           
           <div class="buttons">
-            <button @click="color20 = 'blue'"  class="rouded-full indep20">5. Outstanding</button>
-            <button  @click="color21 = 'blue'" class="indep21">4. Very Satisfaction</button>
-            <button  @click="color22 = 'blue'" class="indep22">3. Satisfaction</button>
-            <button  @click="color23 = 'blue'" class="indep23">2. Fair</button>
-            <button  @click="color24 = 'blue'" class="indep24">1. Poor</button>
+            <button @click="color20 = 'green'"  class="rouded-full indep20">5. Outstanding</button>
+            <button  @click="color21 = 'green'" class="indep21">4. Very Satisfaction</button>
+            <button  @click="color22 = 'green'" class="indep22">3. Satisfaction</button>
+            <button  @click="color23 = 'green'" class="indep23">2. Fair</button>
+            <button  @click="color24 = 'green'" class="indep24">1. Poor</button>
           </div>
         </div> 
         <div class="flex justify-between ml-5 mt-10">

@@ -108,48 +108,48 @@ export default {
           <p>1. Creates opportunities for intensive and/or extensive contribution of students in the class activities (e.g. breaks class into dyads, triads or buzz/task groups).</p>
           
           <div class="buttons">
-          <button @click="color = 'blue'"  class="rouded-full manage">5. Outstanding</button>
-          <button @click="color1 = 'blue'" class="manage1">4. Very Satisfaction</button>
-          <button @click="color2 = 'blue'" class="manage2"> 3. Satisfaction</button>
-          <button @click="color3 = 'blue'" class="manage3">2. Fair</button>
-          <button @click="color4 = 'blue'" class="manage4">1. Poor</button>
+          <button @click="color = 'green'"  class="rouded-full manage">5. Outstanding</button>
+          <button @click="color1 = 'green'" class="manage1">4. Very Satisfaction</button>
+          <button @click="color2 = 'green'" class="manage2"> 3. Satisfaction</button>
+          <button @click="color3 = 'green'" class="manage3">2. Fair</button>
+          <button @click="color4 = 'green'" class="manage4">1. Poor</button>
           </div>
           
           <p>2. Assumes roles as facilitator, resource person, coach, inquisitor, integrator, referee in drawing students to contribution to contribute to knowledge and understanding the concepts at hands.</p>
           
           <div class="buttons">
-            <button @click="color5 = 'blue'"  class="rouded-full manage5">5. Outstanding</button>
-            <button @click="color6 = 'blue'" class="manage6">4. Very Satisfaction</button>
-            <button @click="color7 = 'blue'" class="manage7">3. Satisfaction</button>
-            <button @click="color8 = 'blue'" class="manage8">2. Fair</button>
-            <button @click="color9 = 'blue'" class="manage9">1. Poor</button>
+            <button @click="color5 = 'green'"  class="rouded-full manage5">5. Outstanding</button>
+            <button @click="color6 = 'green'" class="manage6">4. Very Satisfaction</button>
+            <button @click="color7 = 'green'" class="manage7">3. Satisfaction</button>
+            <button @click="color8 = 'green'" class="manage8">2. Fair</button>
+            <button @click="color9 = 'green'" class="manage9">1. Poor</button>
           </div>
           <p>3.  Designs and implements learning conditions and experience that promotes healthy exchange and/or confrontations.</p>
           
           <div class="buttons">
-            <button @click="color10 = 'blue'"  class="rouded-full manage10">5. Outstanding</button>
-            <button @click="color11 = 'blue'" class="manage11">4. Very Satisfaction</button>
-            <button @click="color12 = 'blue'" class="manage12">3. Satisfaction</button>
-            <button @click="color13 = 'blue'" class="manage13">2. Fair</button>
-            <button @click="color14 = 'blue'" class="manage14">1. Poor</button>
+            <button @click="color10 = 'green'"  class="rouded-full manage10">5. Outstanding</button>
+            <button @click="color11 = 'green'" class="manage11">4. Very Satisfaction</button>
+            <button @click="color12 = 'green'" class="manage12">3. Satisfaction</button>
+            <button @click="color13 = 'green'" class="manage13">2. Fair</button>
+            <button @click="color14 = 'green'" class="manage14">1. Poor</button>
           </div>
           <p>4. Structures/re-structures learning and teaching - learning context to enhance attainment of collective learning objectives.</p>
           
           <div class="buttons">
-            <button @click="color15 = 'blue'"  class="rouded-full manage15">5. Outstanding</button>
-            <button @click="color16 = 'blue'" class="manage16">4. Very Satisfaction</button>
-            <button @click="color17 = 'blue'" class="manage17">3. Satisfaction</button>
-            <button @click="color18 = 'blue'" class="manage18">2. Fair</button>
-            <button @click="color19 = 'blue'" class="manage19">1. Poor</button>
+            <button @click="color15 = 'green'"  class="rouded-full manage15">5. Outstanding</button>
+            <button @click="color16 = 'green'" class="manage16">4. Very Satisfaction</button>
+            <button @click="color17 = 'green'" class="manage17">3. Satisfaction</button>
+            <button @click="color18 = 'green'" class="manage18">2. Fair</button>
+            <button @click="color19 = 'green'" class="manage19">1. Poor</button>
           </div>
           <p>5. Use instructional materials (audio/video materials: field trips, film showing, computer aided instruction and etc.) to reinforce learning process.</p>
           
           <div class="buttons">
-            <button @click="color20 = 'blue'"  class="rouded-full manage20">5. Outstanding</button>
-            <button  @click="color21 = 'blue'" class="manage21">4. Very Satisfaction</button>
-            <button  @click="color22 = 'blue'" class="manage22">3. Satisfaction</button>
-            <button  @click="color23 = 'blue'" class="manage23">2. Fair</button>
-            <button  @click="color24 = 'blue'" class="manage24">1. Poor</button>
+            <button @click="color20 = 'green'"  class="rouded-full manage20">5. Outstanding</button>
+            <button  @click="color21 = 'green'" class="manage21">4. Very Satisfaction</button>
+            <button  @click="color22 = 'green'" class="manage22">3. Satisfaction</button>
+            <button  @click="color23 = 'green'" class="manage23">2. Fair</button>
+            <button  @click="color24 = 'green'" class="manage24">1. Poor</button>
           </div>
         </div> 
         <div class="flex justify-between ml-5 mt-10">

@@ -108,48 +108,48 @@ export default {
           <p>1. Demonstrates mastery of the subject matter (explain the subject matter without relying solely on the prescribed textbook).</p>
           
           <div class="buttons">
-          <button @click="color = 'blue'"  class="rouded-full Know">5. Outstanding</button>
-          <button @click="color1 = 'blue'" class="Know1">4. Very Satisfaction</button>
-          <button @click="color2 = 'blue'" class="Know2"> 3. Satisfaction</button>
-          <button @click="color3 = 'blue'" class="Know3">2. Fair</button>
-          <button @click="color4 = 'blue'" class="Know4">1. Poor</button>
+          <button @click="color = 'green'"  class="rouded-full Know">5. Outstanding</button>
+          <button @click="color1 = 'green'" class="Know1">4. Very Satisfaction</button>
+          <button @click="color2 = 'green'" class="Know2"> 3. Satisfaction</button>
+          <button @click="color3 = 'green'" class="Know3">2. Fair</button>
+          <button @click="color4 = 'green'" class="Know4">1. Poor</button>
           </div>
           
           <p>2. Draws and share information on the state on the art of theory and practice in his/her discipline.</p>
           
           <div class="buttons">
-            <button @click="color5 = 'blue'"  class="rouded-full Know5">5. Outstanding</button>
-            <button @click="color6 = 'blue'" class="Know6">4. Very Satisfaction</button>
-            <button @click="color7 = 'blue'" class="Know7">3. Satisfaction</button>
-            <button @click="color8 = 'blue'" class="Know8">2. Fair</button>
-            <button @click="color9 = 'blue'" class="Know9">1. Poor</button>
+            <button @click="color5 = 'green'"  class="rouded-full Know5">5. Outstanding</button>
+            <button @click="color6 = 'green'" class="Know6">4. Very Satisfaction</button>
+            <button @click="color7 = 'green'" class="Know7">3. Satisfaction</button>
+            <button @click="color8 = 'green'" class="Know8">2. Fair</button>
+            <button @click="color9 = 'green'" class="Know9">1. Poor</button>
           </div>
           <p>3. Draws and share information on the state on the art of theory and practice in his/her discipline.</p>
           
           <div class="buttons">
-            <button @click="color10 = 'blue'"  class="rouded-full Know10">5. Outstanding</button>
-            <button @click="color11 = 'blue'" class="Know11">4. Very Satisfaction</button>
-            <button @click="color12 = 'blue'" class="Know12">3. Satisfaction</button>
-            <button @click="color13 = 'blue'" class="Know13">2. Fair</button>
-            <button @click="color14 = 'blue'" class="Know14">1. Poor</button>
+            <button @click="color10 = 'green'"  class="rouded-full Know10">5. Outstanding</button>
+            <button @click="color11 = 'green'" class="Know11">4. Very Satisfaction</button>
+            <button @click="color12 = 'green'" class="Know12">3. Satisfaction</button>
+            <button @click="color13 = 'green'" class="Know13">2. Fair</button>
+            <button @click="color14 = 'green'" class="Know14">1. Poor</button>
           </div>
           <p>4.  Explains the relevance of present topics to the previous lessons, and relates the subject matter to relevant current issues and/or daily life activities.</p>
           
           <div class="buttons">
-            <button @click="color15 = 'blue'"  class="rouded-full Know15">5. Outstanding</button>
-            <button @click="color16 = 'blue'" class="Know16">4. Very Satisfaction</button>
-            <button @click="color17 = 'blue'" class="Know17">3. Satisfaction</button>
-            <button @click="color18 = 'blue'" class="Know18">2. Fair</button>
-            <button @click="color19 = 'blue'" class="Know19">1. Poor</button>
+            <button @click="color15 = 'green'"  class="rouded-full Know15">5. Outstanding</button>
+            <button @click="color16 = 'green'" class="Know16">4. Very Satisfaction</button>
+            <button @click="color17 = 'green'" class="Know17">3. Satisfaction</button>
+            <button @click="color18 = 'green'" class="Know18">2. Fair</button>
+            <button @click="color19 = 'green'" class="Know19">1. Poor</button>
           </div>
           <p>5. Demonstrates - up - to - date knowledge and/or awareness on current trends and issues of the subject.</p>
           
           <div class="buttons">
-            <button @click="color20 = 'blue'"  class="rouded-full Know20">5. Outstanding</button>
-            <button  @click="color21 = 'blue'" class="Know21">4. Very Satisfaction</button>
-            <button  @click="color22 = 'blue'" class="Know22">3. Satisfaction</button>
-            <button  @click="color23 = 'blue'" class="Know23">2. Fair</button>
-            <button  @click="color24 = 'blue'" class="Know24">1. Poor</button>
+            <button @click="color20 = 'green'"  class="rouded-full Know20">5. Outstanding</button>
+            <button  @click="color21 = 'green'" class="Know21">4. Very Satisfaction</button>
+            <button  @click="color22 = 'green'" class="Know22">3. Satisfaction</button>
+            <button  @click="color23 = 'green'" class="Know23">2. Fair</button>
+            <button  @click="color24 = 'green'" class="Know24">1. Poor</button>
           </div>
         </div> 
         <div class="flex justify-between ml-5 mt-10">
