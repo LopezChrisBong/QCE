@@ -1,5 +1,45 @@
+<script>
+export default {
+  data() {
+    return {
+      color: 'none',
+      font: {
+      },
+      color1: 'none',
+      font: {
+      },
+      color2: 'none',
+      color3: 'none',
+      color4: 'none',
+      color5: 'none',
+      color6: 'none',
+      color7: 'none',
+      color8: 'none',
+      color9: 'none',
+      color10: 'none',
+      color11: 'none',
+      color12: 'none',
+      color13: 'none',
+      color14: 'none',
+      color15: 'none',
+      color16: 'none',
+      color17: 'none',
+      color18: 'none',
+      color19: 'none',
+      color20: 'none',
+      color21: 'none',
+      color22: 'none',
+      color23: 'none',
+      color24: 'none',
+    }
+  },
+}
+</script>
 <template>
-  <div class="steps-container">
+<div class="flex justify-center">
+  <div class="w-10/12  lg:w-6/12">
+  <div>
+    <div class="steps-container">
     <ul class="steps-list">
       <li class="step">
         <div class="step-bubble-active">
@@ -59,8 +99,9 @@
       </li>
     </ul>
   </div>
-
-
+  </div>
+  <div>
+    
   <div class="stepper-content">
   
   <div class="stepper-panel">
@@ -71,48 +112,48 @@
         <p>1. Demonstrates sensitivity to student’s ability to attend and absorb content information.</p>
         
         <div class="buttons">
-        <button class="rouded-full">5. Outstanding</button>
-        <button >4. Very Satisfaction</button>
-        <button>3. Satisfaction</button>
-        <button>2. Fair</button>
-        <button>1. Poor</button>
+        <button @click="color = 'blue'"  class="rouded-full buto">5. Outstanding</button>
+        <button @click="color1 = 'blue'" class="buto1">4. Very Satisfaction</button>
+        <button @click="color2 = 'blue'" class="buto2"> 3. Satisfaction</button>
+        <button @click="color3 = 'blue'" class="buto3">2. Fair</button>
+        <button @click="color4 = 'blue'" class="buto4">1. Poor</button>
         </div>
         
         <p>2. Integrates sensitivity his/her learning objectives with those of the students in a collaborative way.</p>
         
         <div class="buttons">
-        <button class="rouded-full">5. Outstanding</button>
-        <button>4. Very Satisfaction</button>
-        <button>3. Satisfaction</button>
-        <button>2. Fair</button>
-        <button>1. Poor</button>
+        <button @click="color5 = 'blue'"  class="rouded-full buto5">5. Outstanding</button>
+        <button @click="color6 = 'blue'" class="buto6">4. Very Satisfaction</button>
+        <button @click="color7 = 'blue'" class="buto7">3. Satisfaction</button>
+        <button @click="color8 = 'blue'" class="buto8">2. Fair</button>
+        <button @click="color9 = 'blue'" class="buto9">1. Poor</button>
         </div>
         <p>3. Makes self available to students beyond official time.</p>
         
         <div class="buttons">
-        <button class="rouded-full">5. Outstanding</button>
-        <button>4. Very Satisfaction</button>
-        <button>3. Satisfaction</button>
-        <button>2. Fair</button>
-        <button>1. Poor</button>
+        <button @click="color10 = 'blue'"  class="rouded-full buto10">5. Outstanding</button>
+        <button @click="color11 = 'blue'" class="buto11">4. Very Satisfaction</button>
+        <button @click="color12 = 'blue'" class="buto12">3. Satisfaction</button>
+        <button @click="color13 = 'blue'" class="buto13">2. Fair</button>
+        <button @click="color14 = 'blue'" class="buto14">1. Poor</button>
         </div>
         <p>4. Regularly comes to class on time, well - groomed and well - prepared to complete assigned responsibilities.</p>
         
         <div class="buttons">
-        <button class="rouded-full">5. Outstanding</button>
-        <button>4. Very Satisfaction</button>
-        <button>3. Satisfaction</button>
-        <button>2. Fair</button>
-        <button>1. Poor</button>
+        <button @click="color15 = 'blue'"  class="rouded-full buto15">5. Outstanding</button>
+        <button @click="color16 = 'blue'" class="buto16">4. Very Satisfaction</button>
+        <button @click="color17 = 'blue'" class="buto17">3. Satisfaction</button>
+        <button @click="color18 = 'blue'" class="buto18">2. Fair</button>
+        <button @click="color19 = 'blue'" class="buto19">1. Poor</button>
         </div>
         <p>5. Keeps accurate record of students’ performance and prompt submission of the same.</p>
         
         <div class="buttons">
-        <button class="rouded-full">5. Outstanding</button>
-        <button>4. Very Satisfaction</button>
-        <button>3. Satisfaction</button>
-        <button>2. Fair</button>
-        <button>1. Poor</button>
+        <button @click="color20 = 'blue'"  class="rouded-full buto20">5. Outstanding</button>
+        <button  @click="color21 = 'blue'" class="buto21">4. Very Satisfaction</button>
+        <button  @click="color22 = 'blue'" class="buto22">3. Satisfaction</button>
+        <button  @click="color23 = 'blue'" class="buto23">2. Fair</button>
+        <button  @click="color24 = 'blue'" class="buto24">1. Poor</button>
         </div>
       </div> 
         <div class="next">
@@ -121,7 +162,13 @@
     </div>
     
 </div>
+  </div>
+  </div>
+</div>
 
+  <div class="">
+
+  </div>
 
 </template>
 <style>
@@ -252,4 +299,84 @@ p{
 button:hover{
   background-color: rgb(121, 207, 121);
 }
+
+.buto {
+  background-color: v-bind(color);
+  /* wrapped in quotes */
+  font-weight: v-bind('font.weight');
+}
+
+.buto1 {
+  background-color: v-bind(color1);
+}
+.buto2 {
+  background-color: v-bind(color2);
+}
+.buto3 {
+  background-color: v-bind(color3);
+}
+.buto4 {
+  background-color: v-bind(color4);
+}
+.buto5 {
+  background-color: v-bind(color5);
+}
+.buto6 {
+  background-color: v-bind(color6);
+}
+.buto7 {
+  background-color: v-bind(color7);
+}
+.buto8 {
+  background-color: v-bind(color8);
+}
+.buto9 {
+  background-color: v-bind(color9);
+}
+.buto10 {
+  background-color: v-bind(color10);
+}
+.buto11 {
+  background-color: v-bind(color11);
+}
+.buto12 {
+  background-color: v-bind(color12);
+}
+.buto13 {
+  background-color: v-bind(color13);
+}
+.buto14 {
+  background-color: v-bind(color14);
+}
+.buto15 {
+  background-color: v-bind(color15);
+}
+.buto16 {
+  background-color: v-bind(color16);
+}
+.buto17 {
+  background-color: v-bind(color17);
+}
+.buto18 {
+  background-color: v-bind(color18);
+}
+.buto19 {
+  background-color: v-bind(color19);
+}
+.buto20 {
+  background-color: v-bind(color20);
+}
+.buto21 {
+  background-color: v-bind(color21);
+}
+.buto22 {
+  background-color: v-bind(color22);
+}
+.buto23 {
+  background-color: v-bind(color23);
+}
+.buto24 {
+  background-color: v-bind(color24);
+}
+
 </style>

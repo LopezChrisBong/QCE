@@ -1,37 +1,37 @@
 <template>
     <div class="flex justify-center">
 
-        <div class="flex justify-center shadow border w-8/12 min-h-max">
+        <div class="flex justify-center shadow border w-6/12 lg:w-8/12 min-h-max">
             <div class="w-12/12">
-                <div class="flex justify-center">
+                <div class="flex justify-center ">
                      <img src="../../assets/pix/Capture.PNG" alt="Header" class="header" id="header">
                 </div>
-
+                <div class="flex justify-center"><p>___________________________________________________________________________________________________________________________________________________________</p></div>
                 <div>
                     <div class="text-center" id="body-pdf">
                         <p class="mt-1 text-xl font-semibold text-gray-900">QUALITATIVE CONTRIBUTION (QCE) RESULTS</p>
-                        <p class="mt-5 mb-5">1st Semester, S.Y. 2022-2023</p>
+                        <p class="mt-5 mb-5 font-semibold ">1st Semester, S.Y. 2022-2023</p>
                         <p class="mt-1 text-xl font-semibold text-gray-900">SUMMARY OF INDIVIDUAL QCE RATING</p>  
                     </div>
                     <div class="flex justify-center">
                         <table class="table-auto w-10/12 mt-2 mb-5">
                             <thead>
-                                <tr>
-                                    <td rowspan="2" class="border">No.</td>
-                                    <td rowspan="2"  class="border">Name of Faculty</td>
-                                    <td  class="border">Self</td>
-                                    <td  class="border">Peer</td>
-                                    <td  class="border">Students</td>
-                                    <td  class="border">Supervisor</td>
-                                    <td rowspan="2"  class="border">Total</td>
-                                    <td rowspan="2"  class="border ">Descriptive Rating</td>
-                                    <td rowspan="2"  class="border">Qualitative Description</td>
+                                <tr >
+                                    <td rowspan="2" class="border font-bold">No.</td>
+                                    <td rowspan="2"  class="border font-bold ">Name of Faculty</td>
+                                    <td  class="border font-bold">Self</td>
+                                    <td  class="border font-bold">Peer</td>
+                                    <td  class="border font-bold">Students</td>
+                                    <td  class="border font-bold">Supervisor</td>
+                                    <td rowspan="2"  class="border font-bold">Total</td>
+                                    <td rowspan="2"  class="border font-bold ">Descriptive Rating</td>
+                                    <td rowspan="2"  class="border font-bold">Qualitative Description</td>
                                 </tr>
                                 <tr>
-                                    <th class="border">20%</th>
-                                    <th class="border">20%</th>
-                                    <th class="border"> 30%</th>
-                                    <th class="border">30%</th>
+                                    <th class="border font-bold">20%</th>
+                                    <th class="border font-bold">20%</th>
+                                    <th class="border font-bold"> 30%</th>
+                                    <th class="border font-bold">30%</th>
                                 </tr>
 
                             </thead>
@@ -117,10 +117,16 @@
    p{
     margin: .2rem;
    }
-   
+
    #header{
     width: 90%;
     margin-top: 1rem;
+   }
+
+   @max-width (820px){
+    #header{
+        width: 50%;
+    }
    }
  
 </style>

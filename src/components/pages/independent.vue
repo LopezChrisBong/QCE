@@ -1,5 +1,44 @@
+<script>
+export default {
+  data() {
+    return {
+      color: 'none',
+      font: {
+      },
+      color1: 'none',
+      font: {
+      },
+      color2: 'none',
+      color3: 'none',
+      color4: 'none',
+      color5: 'none',
+      color6: 'none',
+      color7: 'none',
+      color8: 'none',
+      color9: 'none',
+      color10: 'none',
+      color11: 'none',
+      color12: 'none',
+      color13: 'none',
+      color14: 'none',
+      color15: 'none',
+      color16: 'none',
+      color17: 'none',
+      color18: 'none',
+      color19: 'none',
+      color20: 'none',
+      color21: 'none',
+      color22: 'none',
+      color23: 'none',
+      color24: 'none',
+    }
+  },
+}
+</script>
 <template>
-    <div class="steps-container">
+  <div class="flex justify-center">
+  <div class="w-10/12  lg:w-6/12">
+  <div> <div class="steps-container">
       <ul class="steps-list">
         <li class="step">
           <div class="step-bubble-active">
@@ -58,10 +97,8 @@
           <div class="step-label">Review</div>
         </li>
       </ul>
-    </div>
-  
-  
-    <div class="stepper-content">
+    </div></div>
+  <div><div class="stepper-content">
     
     <div class="stepper-panel">
       <div class="">C. Teacher for independent learning</div>
@@ -71,48 +108,48 @@
           <p>1. Creates teaching strategies that allow students to practice using concepts they need to understand (interactive discussion).</p>
           
           <div class="buttons">
-          <button class="rouded-full">5. Outstanding</button>
-          <button>4. Very Satisfaction</button>
-          <button>3. Satisfaction</button>
-          <button>2. Fair</button>
-          <button>1. Poor</button>
+          <button @click="color = 'blue'"  class="rouded-full indep">5. Outstanding</button>
+          <button @click="color1 = 'blue'" class="indep1">4. Very Satisfaction</button>
+          <button @click="color2 = 'blue'" class="indep2"> 3. Satisfaction</button>
+          <button @click="color3 = 'blue'" class="indep3">2. Fair</button>
+          <button @click="color4 = 'blue'" class="indep4">1. Poor</button>
           </div>
           
           <p>2.  Enhances student self - esteem and/or gives due to practice using concepts they need to understand (interactive discussion).</p>
           
           <div class="buttons">
-          <button class="rouded-full">5. Outstanding</button>
-          <button>4. Very Satisfaction</button>
-          <button>3. Satisfaction</button>
-          <button>2. Fair</button>
-          <button>1. Poor</button>
+            <button @click="color5 = 'blue'"  class="rouded-full indep5">5. Outstanding</button>
+            <button @click="color6 = 'blue'" class="indep6">4. Very Satisfaction</button>
+            <button @click="color7 = 'blue'" class="indep7">3. Satisfaction</button>
+            <button @click="color8 = 'blue'" class="indep8">2. Fair</button>
+            <button @click="color9 = 'blue'" class="indep9">1. Poor</button>
           </div>
           <p>3. Allows students to crate their own course with objectives and realistically define student - professor rules and make them accountable for their performance.</p>
           
           <div class="buttons">
-          <button class="rouded-full">5. Outstanding</button>
-          <button>4. Very Satisfaction</button>
-          <button>3. Satisfaction</button>
-          <button>2. Fair</button>
-          <button>1. Poor</button>
+            <button @click="color10 = 'blue'"  class="rouded-full indep10">5. Outstanding</button>
+            <button @click="color11 = 'blue'" class="indep11">4. Very Satisfaction</button>
+            <button @click="color12 = 'blue'" class="indep12">3. Satisfaction</button>
+            <button @click="color13 = 'blue'" class="indep13">2. Fair</button>
+            <button @click="color14 = 'blue'" class="indep14">1. Poor</button>
           </div>
           <p>4. Allows students to think independently and make their own decisions and holding them accountable for their performance based largely on their success in executing decisions.</p>
           
           <div class="buttons">
-          <button class="rouded-full">5. Outstanding</button>
-          <button>4. Very Satisfaction</button>
-          <button>3. Satisfaction</button>
-          <button>2. Fair</button>
-          <button>1. Poor</button>
+            <button @click="color15 = 'blue'"  class="rouded-full indep15">5. Outstanding</button>
+            <button @click="color16 = 'blue'" class="indep16">4. Very Satisfaction</button>
+            <button @click="color17 = 'blue'" class="indep17">3. Satisfaction</button>
+            <button @click="color18 = 'blue'" class="indep18">2. Fair</button>
+            <button @click="color19 = 'blue'" class="indep19">1. Poor</button>
           </div>
           <p>5. Encourages students to learn beyond what is required and help/guide the students how to apply the concepts learned.</p>
           
           <div class="buttons">
-          <button class="rouded-full">5. Outstanding</button>
-          <button>4. Very Satisfaction</button>
-          <button>3. Satisfaction</button>
-          <button>2. Fair</button>
-          <button>1. Poor</button>
+            <button @click="color20 = 'blue'"  class="rouded-full indep20">5. Outstanding</button>
+            <button  @click="color21 = 'blue'" class="indep21">4. Very Satisfaction</button>
+            <button  @click="color22 = 'blue'" class="indep22">3. Satisfaction</button>
+            <button  @click="color23 = 'blue'" class="indep23">2. Fair</button>
+            <button  @click="color24 = 'blue'" class="indep24">1. Poor</button>
           </div>
         </div> 
         <div class="flex justify-between ml-5 mt-10">
@@ -125,9 +162,9 @@
         </div>
       </div>
       
+  </div></div>
   </div>
-  
-  
+</div>
   </template>
   <style>
   .steps-container{
@@ -253,5 +290,83 @@
   }
   button:hover{
   background-color: rgb(121, 207, 121);
+}
+.indep {
+  background-color: v-bind(color);
+  /* wrapped in quotes */
+  font-weight: v-bind('font.weight');
+}
+
+.indep1 {
+  background-color: v-bind(color1);
+}
+.indep2 {
+  background-color: v-bind(color2);
+}
+.indep3 {
+  background-color: v-bind(color3);
+}
+.indep4 {
+  background-color: v-bind(color4);
+}
+.indep5 {
+  background-color: v-bind(color5);
+}
+.indep6 {
+  background-color: v-bind(color6);
+}
+.indep7 {
+  background-color: v-bind(color7);
+}
+.indep8 {
+  background-color: v-bind(color8);
+}
+.indep9 {
+  background-color: v-bind(color9);
+}
+.indep10 {
+  background-color: v-bind(color10);
+}
+.indep11 {
+  background-color: v-bind(color11);
+}
+.indep12 {
+  background-color: v-bind(color12);
+}
+.indep13 {
+  background-color: v-bind(color13);
+}
+.indep14 {
+  background-color: v-bind(color14);
+}
+.indep15 {
+  background-color: v-bind(color15);
+}
+.indep16 {
+  background-color: v-bind(color16);
+}
+.indep17 {
+  background-color: v-bind(color17);
+}
+.indep18 {
+  background-color: v-bind(color18);
+}
+.indep19 {
+  background-color: v-bind(color19);
+}
+.indep20 {
+  background-color: v-bind(color20);
+}
+.indep21 {
+  background-color: v-bind(color21);
+}
+.indep22 {
+  background-color: v-bind(color22);
+}
+.indep23 {
+  background-color: v-bind(color23);
+}
+.indep24 {
+  background-color: v-bind(color24);
 }
   </style>

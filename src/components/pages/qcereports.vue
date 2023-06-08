@@ -142,7 +142,7 @@
                <div> <a
                               href="Pdfreport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5"><span>Print Report</span></button></a></div>
+                          ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5 text-xs lg:text-lg "><span>Print Report</span></button></a></div>
                <div> <select name="" id="" class="border rounded-sm p-2.5 ml-4 mt-1.5">
                 <option value="Select" >Select</option>
                 <option value="Overall Report">Overall Report</option>
@@ -183,7 +183,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
                         </tr>
                         <tr>
                           <td>2</td>
@@ -195,7 +195,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                         <tr>
@@ -208,7 +208,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                         <tr>
@@ -221,7 +221,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                          <tr>
@@ -234,7 +234,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                       </tbody>

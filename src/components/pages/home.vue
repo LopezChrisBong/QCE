@@ -151,7 +151,7 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       6,230 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-green-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
                     </div>
                     
@@ -166,7 +166,7 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       63 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-blue-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       121 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-orange-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       4 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-violet-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
                         </tr>
                         <tr>
                           <td>2</td>
@@ -237,7 +237,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                         <tr>
@@ -249,7 +249,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
 
                         </tr>
                         <tr>
@@ -261,7 +261,7 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
                         </tr>
                          <tr>
                           <td>5</td>
@@ -272,14 +272,13 @@
                           <td> <a
                               href="FacultyReport"
                               class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn">View</button></a></td>
+                          ><button class="btn btn--green-1">View</button></a></td>
                         </tr>
                       </tbody>
                     </table>
                 </div>
             </div>
       </div>
-     
   </div> 
 </template>
 <style>
@@ -304,9 +303,6 @@ table tr{
 table td{
   padding: 1rem;
   align-content: right;
-}
-.setting{
-  margin-top: 260%;
 }
 </style>
 

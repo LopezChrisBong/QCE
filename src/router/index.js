@@ -14,6 +14,9 @@ import Review from '../components/pages/review.vue'
 import QCEReport from '../components/pages/qcereports.vue'
 import FacultyReport from '../components/pages/facultyreport.vue'
 import Pdfreport from '../components/pages/pdfreport.vue'
+import Choose from '../components/pages/choose.vue'
+
+
 const routes =[
     {
         path: '/',
@@ -70,6 +73,10 @@ const routes =[
     {
         path: '/pdfreport',
         component: Pdfreport
+    }, 
+    {
+        path: '/choose',
+        component: Choose
     }, 
 
 ]

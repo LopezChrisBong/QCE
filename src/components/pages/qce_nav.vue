@@ -1,11 +1,11 @@
 <template>
- <div class="">
-    <div class="flex justify-between ml-8 sticky">
+ <div>
+    <div class="flex justify-between ml-8">
         <div>
             <nav class="flex justify-left space-x-10 main-nav ">
-            <img alt="Vue logo" class="logo" src="../../assets/pix/SummerLms.gif" width="125" height="125" />
+            <img alt="Vue logo" class="logo" src="../../assets/pix/SummerLms.gif" width="125" height="" />
             <a href="/" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>
-            <a href="/Commitment" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">QCE FORM</a>
+            <a href="/Choose" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">QCE FORM</a>
             </nav>
         </div>
         <div class="flex mr-4 z-index-1">
@@ -15,7 +15,7 @@
                 <option>Profile</option>
                 <option>Logout</option>
             </select>
-            <img src="../../assets/pix/Profile.png" alt="" width="50" height="50">
+            <img src="../../assets/pix/Profile.png" alt="" width="50" height="">
         </div>
   </div>
   <div class="hidden">
@@ -29,8 +29,11 @@
 
 </div> 
 </template>
-<style>
-.sticky{
-    position: sticky;
-}
+<style> 
+
 </style>
+<script setup>
+    import {ref} from 'vue'
+
+    const color =ref('red')
+</script>

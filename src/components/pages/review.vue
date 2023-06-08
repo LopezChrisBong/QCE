@@ -1,5 +1,7 @@
 <template>
-    <div class="steps-container">
+<div class="flex justify-center">
+  <div class="w-10/12 lg:w-6/12">
+  <div><div class="steps-container">
       <ul class="steps-list">
         <li class="step">
           <div class="step-bubble-active">
@@ -59,12 +61,11 @@
         </li>
       </ul>
     </div>
-  
-  
-    <div class="stepper-content">
+  </div>
+  <div> <div class="stepper-content">
     
     <div class="stepper-panel">
-      <div class="">D. Management of Learnings</div>
+      <div class="font-semibold">Review and Submit</div>
     </div>
       <div class="stepper-panels">
         <div class="stepper-quest">
@@ -120,7 +121,13 @@
           </div>
       </div>
       
+  </div></div>
   </div>
+</div>
+
+    
+  
+   
   
   
   </template>

@@ -139,80 +139,80 @@
                  <div><a
                                 href="QCEReport"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5"><span>Back Report</span></button></a></div>
+                            ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5 text-xs lg:text-lg"><span>Back Report</span></button></a></div>
                 
               </div>
           </div>
 
-          <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-5">
+          <div class="grid grid-cols-5 gap-6 mb-6 lg:grid-cols-5">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Students
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                       30%
                     </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                    25.6%<span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-green-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
                     </div>
                     
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Supervisor
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                         20%
                     </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-blue-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Peer
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                       20%
                     </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-orange-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Self
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                      20%
                     </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       30% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-violet-500 truncate line-fill">
+                    <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Total
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                      95%
                     </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       95% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
-                    <div class="text-sm font-medium bg-blue-300 truncate line-fill">
+                    <div class="text-sm font-medium bg-blue-300 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
@@ -248,7 +248,7 @@
                             <td> <a
                                 href="Commitment"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            >View</a></td>
+                            ><button class="btn btn--green-1">View</button></a></td>
                           </tr>
                           <tr>
                             <td>2</td>
@@ -261,7 +261,7 @@
                             <td> <a
                                 href="Commitment"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            >View</a></td>
+                            ><button class="btn btn--green-1">View</button></a></td>
   
                           </tr>
                           <tr>
@@ -275,7 +275,7 @@
                             <td> <a
                                 href="Commitment"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            >View</a></td>
+                            ><button class="btn btn--green-1">View</button></a></td>
   
                           </tr>
                           <tr>
@@ -289,7 +289,7 @@
                             <td> <a
                                 href="Commitment"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            >View</a></td>
+                            ><button class="btn btn--green-1">View</button></a></td>
   
                           </tr>
                            <tr>
@@ -303,7 +303,7 @@
                             <td> <a
                                 href="Commitment"
                                 class="flex items-center p-2 space-x-3 rounded-md"
-                            >View</a></td>
+                            ><button class="btn btn--green-1">View</button></a></td>
   
                           </tr>
                         </tbody>
