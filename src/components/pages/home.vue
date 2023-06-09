@@ -142,6 +142,8 @@
       <div class="container mx-auto mt-12">
             <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                  <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-green-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-xl font-semibold text-gray-900">
                         Students
                     </div>
@@ -151,12 +153,16 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       6,230 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
                     </div>
                     
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                  <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-blue-500 border rounded-md h-16 w-16 -mr-16"> </div>
+
                     <div class="mt-1 text-xl font-semibold text-gray-900">
                         Peer
                     </div>
@@ -166,11 +172,14 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       63 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
+                  </div>
                     <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                  <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-orange-500 border rounded-md h-16  w-16 -mr-16"> </div>
                     <div class="mt-1 text-xl font-semibold text-gray-900">
                         Self
                     </div>
@@ -180,11 +189,14 @@
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       121 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                  <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-violet-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-xl font-semibold text-gray-900">
                         Supervisor
                     </div>
@@ -193,6 +205,7 @@
                     </div>
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       4 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
+                    </div>
                     </div>
                     <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s

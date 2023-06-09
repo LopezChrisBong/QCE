@@ -146,6 +146,8 @@
 
           <div class="grid grid-cols-5 gap-6 mb-6 lg:grid-cols-5">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                    <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-green-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Students
                     </div>
@@ -155,12 +157,15 @@
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                    25.6%<span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
                     </div>
                     
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                    <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-blue-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Supervisor
                     </div>
@@ -170,11 +175,14 @@
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                    <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-orange-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Peer
                     </div>
@@ -184,11 +192,14 @@
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                    <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-violet-500 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Self
                     </div>
@@ -198,11 +209,14 @@
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       30% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
                     </div>
+                    </div>
                     <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s
                     </div>
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
+                    <div class="grid grid-rows-3 grid-flow-col gap-">
+                  <div class="row-span-3 bg-blue-300 border rounded-md h-16 w-16 -mr-16"> </div>
                     <div class="mt-1 text-sm lg:text-xl font-semibold text-gray-900">
                         Total
                     </div>
@@ -211,6 +225,7 @@
                     </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       95% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
+                    </div>
                     </div>
                     <div class="text-sm font-medium bg-blue-300 truncate line-fill rounded-sm">
                       s
