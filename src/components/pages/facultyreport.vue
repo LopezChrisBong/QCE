@@ -154,9 +154,9 @@
                     <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                       30%
                     </div>
+                    </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                    25.6%<span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
@@ -172,9 +172,9 @@
                     <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                         20%
                     </div>
+                    </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
@@ -189,9 +189,9 @@
                     <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                       20%
                     </div>
+                    </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       20% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
@@ -206,9 +206,9 @@
                     <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                      20%
                     </div>
+                    </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       30% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s
@@ -223,9 +223,9 @@
                     <div class="text-xs lg:text-sm font-medium text-gray-500 truncate">
                      95%
                     </div>
+                    </div>
                     <div class="mt-1 text-lg lg:text-3xl font-semibold text-gray-900">
                       95% <span class="text-sm font-medium text-green-500 truncate hidden">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-blue-300 truncate line-fill rounded-sm">
                       s

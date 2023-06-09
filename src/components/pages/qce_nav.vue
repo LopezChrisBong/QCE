@@ -1,21 +1,21 @@
 <template>
- <div>
-    <div class="flex justify-between ml-8">
+ <div class="sticky top-0 bg-[#FFFFFF] z-40">
+    <div class="flex justify-between shadow-md">
         <div>
             <nav class="flex justify-left space-x-10 main-nav ">
-            <img alt="Vue logo" class="logo" src="../../assets/pix/SummerLms.gif" width="125" height="" />
+            <img alt="Vue logo" class="logo ml-8" src="../../assets/pix/SummerLms.gif" width="125" height="" />
             <a href="/" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>
             <a href="/Choose" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">QCE FORM</a>
             </nav>
         </div>
         <div class="flex mr-4 z-index-1">
-            <select class="border rouded-lg">
+            <select class=" rouded-lg">
                 <option></option>
                 <option>Setting</option>
                 <option>Profile</option>
                 <option>Logout</option>
             </select>
-            <img src="../../assets/pix/Profile.png" alt="" width="50" height="">
+            <img src="../../assets/pix/Profile.png" alt="" width="58" >
         </div>
   </div>
   <div class="hidden">

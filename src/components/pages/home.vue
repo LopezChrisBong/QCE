@@ -149,11 +149,11 @@
                     </div>
                     <div class="text-sm font-medium text-gray-500 truncate">
                       6,230 Evaluators
-                    </div>
+                    </div> </div>
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       6,230 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                    </div>
+                   
                     <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
                       s
                     </div>
@@ -169,10 +169,10 @@
                     <div class="text-sm font-medium text-gray-500 truncate">
                       63 Evaluators
                     </div>
+                  </div>
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       63 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
-                  </div>
                     <div class="text-sm font-medium bg-blue-500 truncate line-fill rounded-sm">
                       s
                     </div>
@@ -186,9 +186,9 @@
                     <div class="text-sm font-medium text-gray-500 truncate">
                       121 Evaluators
                     </div>
+                    </div>
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       121 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-orange-500 truncate line-fill rounded-sm">
                       s
@@ -203,9 +203,9 @@
                     <div class="text-sm font-medium text-gray-500 truncate">
                       4 Evaluators
                     </div>
+                    </div>
                     <div class="mt-1 text-3xl font-semibold text-gray-900">
                       4 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
-                    </div>
                     </div>
                     <div class="text-sm font-medium bg-violet-500 truncate line-fill rounded-sm">
                       s
@@ -213,9 +213,13 @@
                 </div>
             </div>
             <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
-                <div class="flex justify-between">
-                  <div> <input type="text" placeholder="search" class="bg-gray-200 rounded-lg w-15 h-8"> </div>
-                  <div><Button class="btn">Filter</Button></div>
+                <div class="flex justify-between bg-gray-200 py-3 rounded-lg">
+                  
+                  <div class="flex  w-15 h-8 bg-white ml-4 mt-1 rounded-lg"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="ml-5"><rect width="256" height="256" fill="none"/><circle cx="116" cy="116" r="84" fill="none" stroke="#004" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/><line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/></svg>
+
+                              <input type="text" placeholder="Search"  class="rounded-lg pr-16 text-lg pl-2 tex"> </div>
+                  <div class=""><Button class="btn mr-4">Filter</Button></div>
                 </div>
                 <div class=" flex justify-center">
                   <table class="table-fixed">
@@ -320,5 +324,5 @@ table td{
 </style>
 
 <script>
-import SearchInput from 'vue-search-input'
+
 </script>
