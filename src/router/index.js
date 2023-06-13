@@ -20,62 +20,78 @@ import Choose from '../components/pages/choose.vue'
 const routes =[
     {
         path: '/',
+        name: 'Home',
         component: Home
     },
     {
         path: '/nav',
+        name: 'Nav',
         component: Nav
     },
     {
         path: '/response',
+        name: 'Response',
         component: Response
     },
     {
         path: '/response_form',
+        name: 'ResponseForm',
         component: ResponseForm
     },
     {
         path: '/qceevaluation',
+        name: 'Evaluate',
         component: Evaluation
     },
     {
         path: '/commitment',
+        name: 'Commitment',
         component: Commitment
     },
     {
         path: '/knowledge',
+        name: 'Knowledge',
         component: Knowledge
     },
     {
         path: '/independent',
+        name: 'Independent',
         component: Independent
     },
     {
         path: '/management',
+        name: 'Management',
         component: Management
     },
     {
         path: '/comments',
+        name: 'Comments',
         component: Comments
+
     },
     {
         path: '/review',
+        name: 'Review',
         component: Review
     },
     {
         path: '/qcereport',
+        name: 'QCEReport',
         component: QCEReport
     }, 
     {
         path: '/facultyreport',
+        name: 'FacultyReport',
         component: FacultyReport
     }, 
     {
         path: '/pdfreport',
+        name: 'Pdfreport',
         component: Pdfreport
     }, 
     {
         path: '/choose',
+        name: 'Choose',
         component: Choose
     }, 
 
