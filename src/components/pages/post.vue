@@ -1,5 +1,4 @@
 <script>
-import { defineProps } from 'vue';
 export default {
   el: "#myForm",
   data: ()=> {
@@ -12,11 +11,6 @@ export default {
   }
 }
 }
-const dataSteps = {
-    activeColor: green, 
-}
-
-props.dataSteps.activeColor--;
 
 
 </script>
@@ -108,7 +102,7 @@ props.dataSteps.activeColor--;
 
         {{ choose }}
        
-        <div v-if="!Outstanding" >Outstanding</div>
+        <div v-if="!Outstanding">Outstanding</div>
         <div v-else-if="!VerySatisfaction" >VerySatisfaction</div>
         <div v-else-if="!Satisfaction" >Satisfaction</div>
         <div v-else-if="!Fair" >Fair</div>
