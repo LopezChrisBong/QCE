@@ -42,7 +42,7 @@
                                   viewBox="0 0 24 24"
                                   stroke-width="1.5"
                                   stroke="currentColor"
-                                  class="w-6 h-6"
+                                  class="w-6 h-6 text-green-600"
                               >
                                   <path
                                       stroke-linecap="round"
@@ -51,7 +51,7 @@
                                   />
                               </svg>
 
-                              <span>QCE Reports</span>
+                              <span class="text-green-600" >QCE Reports</span>
                           </a>
                       </li>
                       <li class="rounded-sm">

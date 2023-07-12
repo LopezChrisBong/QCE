@@ -20,7 +20,7 @@
                                   viewBox="0 0 24 24"
                                   stroke-width="1.5"
                                   stroke="currentColor"
-                                  class="w-6 h-6"
+                                  class="w-6 h-6 text-green-600"
                               >
                                   <path
                                       stroke-linecap="round"
@@ -29,7 +29,7 @@
                                   />
                               </svg>
 
-                              <span>Dashboard</span>
+                              <span class="text-green-600">Dashboard</span>
                           </a>
                       </li>
                       <li class="rounded-sm">
