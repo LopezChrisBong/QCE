@@ -15,7 +15,6 @@ import QCEReport from '../components/pages/qcereports.vue'
 import FacultyReport from '../components/pages/facultyreport.vue'
 import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
-import Poster from '../components/pages/post.vue'
 
 
 const routes =[
@@ -95,11 +94,7 @@ const routes =[
         name: 'Choose',
         component: Choose
     }, 
-    {
-        path: '/poster',
-        name: 'Poster',
-        component: Poster
-    }, 
+   
 
 ]
 
