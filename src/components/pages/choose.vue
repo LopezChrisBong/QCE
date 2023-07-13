@@ -65,9 +65,22 @@
               searchTooltip
             }}</span>
           </li>-->
-          <li>
-
+          <li id="dash"  class="flex"
+            v-if="isDash"
+            @click="isOpened = true"
+          >
+         <Icons :name="'dashed'"/>
+          <p >{{isDashedItem}}</p>
           </li>
+
+          <li id="dropdown"  class="flex"
+            v-if="isDrop"
+            @click="isOpened = true"
+          >
+         <Icons :name="'pdf'"/>
+          <p >{{isDropItem}}</p>
+          </li>
+          
 
           <li
             v-for="(menuItem, index) in menuItems"
@@ -102,40 +115,9 @@
               menuItem.tooltip || menuItem.name
             }}</span>
           </li>
+          
 
-          <li
-            v-for="(menuItem1, index) in menuItem1s"
-            :key="index"
-            :id="'links_' + index"
-          >
-            <router-link
-              v-if="isUsedVueRouter"
-              :to="menuItem1.link"
-            >
-              <i
-                class="bx"
-                :class="menuItem1.icon || 'bx-square-rounded'"
-              />
-              <span class="links_name">{{ menuItem1.name }}</span>
-            </router-link>
-            <a
-              v-else
-              @click.stop.prevent="$emit('menuItemClcked', menuItem1.link)"
-              :href="menuItem1.link"
-            >
-              <i
-                class="bx"
-                :class="menuItem1.icon || 'bx-square-rounded'"
-              />
-              <span class="links_name">{{ menuItem1.name }}</span>
-            </a>
-            <span
-              :data-target="'links_' + index"
-              class="tooltip"
-            >{{
-              menuItem1.tooltip || menuItem1.name
-            }}</span>
-          </li>
+          
         </ul>
       </div>
 
@@ -334,7 +316,12 @@
 </template>
 
 <script>
+import Icons from '../icon.vue'
   export default {
+    components:{
+      Icons
+    },
+
     name: 'SidebarMenuAkahon',
     props: {
       //! Menu settings
@@ -370,13 +357,28 @@
         type: String,
         default: '78px',
       },
-
+      isDash: {
+        type: Boolean,
+        default: true,
+      },
+      isDashedItem:{
+        type: String,
+        default:'Dashboard',
+      },
+      isDrop: {
+        type: Boolean,
+        default: true,
+      },
+      isDropItem:{
+        type: String,
+        default:'Faculty Evaluation',
+      },
       //! Menu items
       menuItems: {
         type: Array,
         default: () => [
           {
-            link: '#',
+            link: '/',
             name: 'Dashboard',
             tooltip: 'Dashboard',
             icon: 'bx-grid-alt',
@@ -388,20 +390,19 @@
             icon: 'bx-file',
           },
           {
-            link: '#',
+            link: '/qcereport',
             name: 'Print Report',
             tooltip: 'Print Report',
             icon: 'bx-file',
           },
           {
-            link: '#',
+            link: '/qcereport',
             name: 'QCE Questions',
             tooltip: 'Qce Questions',
             icon: 'bx-pie-chart-alt-2',
           },
         ],
       },
-
       //! Search
       isSearch: {
         type: Boolean,
@@ -541,7 +542,6 @@
     },
   }
 </script>
-
 <style>
   /* Google Font Link */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
