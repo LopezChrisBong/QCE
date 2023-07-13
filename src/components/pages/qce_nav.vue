@@ -1,12 +1,15 @@
 <template>
  <div class="sticky top-0 bg-[#FFFFFF] z-40">
     <div class="flex justify-between shadow-md">
-        <div>
-            <nav class="flex justify-left space-x-10 main-nav ">
+        <div class="">
+          <!--   <nav class="flex justify-left space-x-10 main-nav ">
             <img alt="Vue logo" class="logo ml-8" src="../../assets/pix/SummerLms.gif" width="125" height="" />
             <a href="/" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>
             <a href="/commitment" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">QCE FORM</a>
-            </nav>
+            </nav>-->
+
+        <p class="font-bold text-lg">QCE FACULTY EVALUATION</p>
+        <p class="text-sm">A.Y. 2022-2023 2nd Semester</p>
         </div>
         <div class="flex mr-4 z-index-1">
             <select class=" rouded-lg">
@@ -28,6 +31,8 @@
   </div>
 
 </div> 
+
+
 </template>
 <style> 
 
