@@ -38,7 +38,7 @@ export default {
 </script>
 <template>
 <div class="flex justify-center">
-  <div class="w-10/12  lg:w-6/12">
+  <div class="w-10/12  lg:w-8/12">
   <div>
     <div class="steps-container">
     <ul class="steps-list">
@@ -106,11 +106,11 @@ export default {
   <div class="stepper-content">
   
   <div class="stepper-panel">
-    <div class="">A. Commitment</div>
+    <div class="py-5">A. Commitment</div>
   </div>
-    <div class="stepper-panels">
-      <div class="stepper-quest">
-        <p>1. Demonstrates sensitivity to student’s ability to attend and absorb content information.</p>
+    <div class="stepper-panels py-8">
+      <div class="stepper-quest ">
+        <p class="font-semibold">1. Demonstrates sensitivity to student’s ability to attend and absorb content information.</p>
         
         <div class="buttons">
         <button @click="color = 'green'"  class="rouded-full buto">5. Outstanding</button>
@@ -119,7 +119,8 @@ export default {
         <button @click="color3 = 'green'" class="buto3">2. Fair</button>
         <button @click="color4 = 'green'" class="buto4">1. Poor</button>
         </div>
-        
+      <!--
+      
         <p>2. Integrates sensitivity his/her learning objectives with those of the students in a collaborative way.</p>
         
         <div class="buttons">
@@ -156,6 +157,7 @@ export default {
         <button  @click="color23 = 'green'" class="buto23">2. Fair</button>
         <button  @click="color24 = 'green'" class="buto24">1. Poor</button>
         </div>
+        -->
       </div> 
         <div class="next">
          <a href="/Knowledge"><button class=" btn button-next ">Next</button></a> 

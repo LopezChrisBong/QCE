@@ -9,7 +9,7 @@
             </nav>-->
 
         <p class="font-bold text-lg">QCE FACULTY EVALUATION</p>
-        <p class="text-sm">A.Y. 2022-2023 2nd Semester</p>
+        <p class="text-sm text-slate-500">A.Y. 2022-2023 2nd Semester</p>
         </div>
         <div class="flex mr-4 z-index-1">
             <select class=" rouded-lg">

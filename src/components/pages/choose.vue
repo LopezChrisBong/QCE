@@ -65,6 +65,10 @@
               searchTooltip
             }}</span>
           </li>-->
+
+
+
+          <!--
           <li id="dash"  class="flex"
             v-if="isDash"
             @click="isOpened = true"
@@ -80,6 +84,8 @@
          <Icons :name="'pdf'"/>
           <p >{{isDropItem}}</p>
           </li>
+          -->
+          
           
 
           <li
@@ -232,10 +238,16 @@
             <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                 <div class="flex justify-between bg-gray-200 py-3 rounded-lg">
                   
-                  <div class="flex  w-15 h-8 bg-white ml-4 mt-1 rounded-lg"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="ml-5"><rect width="256" height="256" fill="none"/><circle cx="116" cy="116" r="84" fill="none" stroke="#004" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/></svg>
-
-                              <input type="text" placeholder="Search"  class="rounded-lg pr-16 text-lg pl-2 tex"> </div>
+                  <div class="flex  w-15 h-8 ml-4 mt-1 rounded-lg"> 
+                    <div class="mt-1s">
+                      <!--This icon in Component base-->
+                      <Icons :name="'magnifying-glass'" class=""/>
+                    </div>
+                      
+                      <div >
+                        <input type="text" placeholder="Search"  class="rounded-lg pr-16 text-lg pl-2 tex"> 
+                      </div>
+                              </div>
                   <div class=""><Button class="btn mr-4">Filter</Button></div>
                 </div>
                 <div class=" flex justify-center">
