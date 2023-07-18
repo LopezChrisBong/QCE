@@ -37,7 +37,7 @@ export default {
 </script>
 <template>
   <div class="flex justify-center">
-    <div class="w-10/12  lg:w-6/12">
+    <div class="w-10/12  lg:w-8/12">
   <div><div class="steps-container">
       <ul class="steps-list">
         <li class="step">
@@ -97,25 +97,66 @@ export default {
           <div class="step-label">Review</div>
         </li>
       </ul>
+      <!-- Question Steps-->
+    <ul class="steps-list mt-14 ml-32">
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">1</div>
+        </div>
+        <div class="step-labelq ">Question No. 1</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">2</div>
+        </div>
+        <div class="step-labelq ">Question No. 2</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">3</div>
+        </div>
+        <div class="step-labelq ">Question No. 3</div>
+        <div class="step-line">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">4</div>
+        </div>
+        <div class="step-labelq ">Question No. 4</div>
+        <div class="step-line">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">5</div>
+        </div>
+        <div class="step-labelq ">Question No. 5</div>
+      </li>
+    </ul>
+<!--Question Step End-->
     </div></div>
   <div>    <div class="stepper-content">
     
     <div class="stepper-panel">
-      <div class="">B. Knowledge of the subject matter</div>
+      <div class="py-5">B. Knowledge of the subject matter</div>
     </div>
-      <div class="stepper-panels">
+      <div class="stepper-panels py-8">
         <div class="stepper-quest">
-          <p>1. Demonstrates mastery of the subject matter (explain the subject matter without relying solely on the prescribed textbook).</p>
           
-          <div class="buttons">
-          <button @click="color = 'green'"  class="rouded-full Know">5. Outstanding</button>
-          <button @click="color1 = 'green'" class="Know1">4. Very Satisfaction</button>
-          <button @click="color2 = 'green'" class="Know2"> 3. Satisfaction</button>
-          <button @click="color3 = 'green'" class="Know3">2. Fair</button>
-          <button @click="color4 = 'green'" class="Know4">1. Poor</button>
-          </div>
-          
-          <p>2. Draws and share information on the state on the art of theory and practice in his/her discipline.</p>
+          <p class="font-semibold">2. Draws and share information on the state on the art of theory and practice in his/her discipline.</p>
           
           <div class="buttons">
             <button @click="color5 = 'green'"  class="rouded-full Know5">5. Outstanding</button>
@@ -124,40 +165,14 @@ export default {
             <button @click="color8 = 'green'" class="Know8">2. Fair</button>
             <button @click="color9 = 'green'" class="Know9">1. Poor</button>
           </div>
-          <p>3. Draws and share information on the state on the art of theory and practice in his/her discipline.</p>
-          
-          <div class="buttons">
-            <button @click="color10 = 'green'"  class="rouded-full Know10">5. Outstanding</button>
-            <button @click="color11 = 'green'" class="Know11">4. Very Satisfaction</button>
-            <button @click="color12 = 'green'" class="Know12">3. Satisfaction</button>
-            <button @click="color13 = 'green'" class="Know13">2. Fair</button>
-            <button @click="color14 = 'green'" class="Know14">1. Poor</button>
-          </div>
-          <p>4.  Explains the relevance of present topics to the previous lessons, and relates the subject matter to relevant current issues and/or daily life activities.</p>
-          
-          <div class="buttons">
-            <button @click="color15 = 'green'"  class="rouded-full Know15">5. Outstanding</button>
-            <button @click="color16 = 'green'" class="Know16">4. Very Satisfaction</button>
-            <button @click="color17 = 'green'" class="Know17">3. Satisfaction</button>
-            <button @click="color18 = 'green'" class="Know18">2. Fair</button>
-            <button @click="color19 = 'green'" class="Know19">1. Poor</button>
-          </div>
-          <p>5. Demonstrates - up - to - date knowledge and/or awareness on current trends and issues of the subject.</p>
-          
-          <div class="buttons">
-            <button @click="color20 = 'green'"  class="rouded-full Know20">5. Outstanding</button>
-            <button  @click="color21 = 'green'" class="Know21">4. Very Satisfaction</button>
-            <button  @click="color22 = 'green'" class="Know22">3. Satisfaction</button>
-            <button  @click="color23 = 'green'" class="Know23">2. Fair</button>
-            <button  @click="color24 = 'green'" class="Know24">1. Poor</button>
-          </div>
         </div> 
-        <div class="flex justify-between ml-5 mt-10">
-            <div class="Preview">
-            <a href="/Commitment"><button class=" btn button-next ">Preview</button></a> 
+        <div class=" ml-5 mt-10">
+          <!--<div class="Preview">
+            <a href="/Knowledge"><button class=" btn button-next ">Preview</button></a> 
         </div>
+        -->  
           <div class="next">
-            <a href="/Independent"><button class=" btn button-next ">Next</button></a> 
+            <a href="/Knowledgeq3"><button class=" btn button-next ">Next</button></a> 
           </div>
         </div>
       

@@ -99,6 +99,56 @@ export default {
         <div class="step-label">Review</div>
       </li>
     </ul>
+<!-- Question Steps-->
+    <ul class="steps-list mt-14 ml-32">
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">1</div>
+        </div>
+        <div class="step-labelq ">Question No. 1</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">2</div>
+        </div>
+        <div class="step-labelq ">Question No. 2</div>
+        <div class="step-line">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">3</div>
+        </div>
+        <div class="step-labelq ">Question No. 3</div>
+        <div class="step-line">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">4</div>
+        </div>
+        <div class="step-labelq ">Question No. 4</div>
+        <div class="step-line">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">5</div>
+        </div>
+        <div class="step-labelq ">Question No. 5</div>
+      </li>
+    </ul>
+<!--Question Step End-->
   </div>
   </div>
   <div>
@@ -119,48 +169,10 @@ export default {
         <button @click="color3 = 'green'" class="buto3">2. Fair</button>
         <button @click="color4 = 'green'" class="buto4">1. Poor</button>
         </div>
-      <!--
       
-        <p>2. Integrates sensitivity his/her learning objectives with those of the students in a collaborative way.</p>
-        
-        <div class="buttons">
-        <button @click="color5 = 'green'"  class="rouded-full buto5">5. Outstanding</button>
-        <button @click="color6 = 'green'" class="buto6">4. Very Satisfaction</button>
-        <button @click="color7 = 'green'" class="buto7">3. Satisfaction</button>
-        <button @click="color8 = 'green'" class="buto8">2. Fair</button>
-        <button @click="color9 = 'green'" class="buto9">1. Poor</button>
-        </div>
-        <p>3. Makes self available to students beyond official time.</p>
-        
-        <div class="buttons">
-        <button @click="color10 = 'green'"  class="rouded-full buto10">5. Outstanding</button>
-        <button @click="color11 = 'green'" class="buto11">4. Very Satisfaction</button>
-        <button @click="color12 = 'green'" class="buto12">3. Satisfaction</button>
-        <button @click="color13 = 'green'" class="buto13">2. Fair</button>
-        <button @click="color14 = 'green'" class="buto14">1. Poor</button>
-        </div>
-        <p>4. Regularly comes to class on time, well - groomed and well - prepared to complete assigned responsibilities.</p>
-        
-        <div class="buttons">
-        <button @click="color15 = 'green'"  class="rouded-full buto15">5. Outstanding</button>
-        <button @click="color16 = 'green'" class="buto16">4. Very Satisfaction</button>
-        <button @click="color17 = 'green'" class="buto17">3. Satisfaction</button>
-        <button @click="color18 = 'green'" class="buto18">2. Fair</button>
-        <button @click="color19 = 'green'" class="buto19">1. Poor</button>
-        </div>
-        <p>5. Keeps accurate record of students’ performance and prompt submission of the same.</p>
-        
-        <div class="buttons">
-        <button @click="color20 = 'green'"  class="rouded-full buto20">5. Outstanding</button>
-        <button  @click="color21 = 'green'" class="buto21">4. Very Satisfaction</button>
-        <button  @click="color22 = 'green'" class="buto22">3. Satisfaction</button>
-        <button  @click="color23 = 'green'" class="buto23">2. Fair</button>
-        <button  @click="color24 = 'green'" class="buto24">1. Poor</button>
-        </div>
-        -->
       </div> 
         <div class="next">
-         <a href="/Knowledge"><button class=" btn button-next ">Next</button></a> 
+         <a href="/Commitmentq2"><button class=" btn button-next ">Next</button></a> 
         </div>
     </div>
     
@@ -216,8 +228,8 @@ export default {
   height: 50px;
   border-radius: 100%;
   border:1px solid;
-  border-color: green;
-  background-color: green;
+  border-color:#33D330;
+  background-color: 33D330;
   transition:all .3s ease;
   display: flex;
   align-items: center;
@@ -234,6 +246,14 @@ position: absolute;
 margin-top: 5rem;
 opacity: .3;
 }
+.step-labelq{
+color: black;
+font-size: 15px;
+position: absolute;
+margin-top: 5rem;
+opacity: .3;
+margin-left: -20px;
+}
 .step-line{
   width: 100%;
   height: 5px;
@@ -247,7 +267,7 @@ opacity: .3;
 .step-line-active{
   width: 100%;
   height: 5px;
-  background-color: green;
+  background-color: 33D330;
   position: absolute;
   top: 50%;
   left: 0;

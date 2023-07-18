@@ -37,7 +37,7 @@ export default {
 </script>
 <template>
 <div class="flex justify-center">
-  <div class="w-10/12  lg:w-6/12">
+  <div class="w-10/12  lg:w-8/12">
   <div> <div class="steps-container">
       <ul class="steps-list">
         <li class="step">
@@ -97,43 +97,65 @@ export default {
           <div class="step-label">Review</div>
         </li>
       </ul>
+       <!-- Question Steps-->
+     <ul class="steps-list mt-14 ml-32">
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">1</div>
+        </div>
+        <div class="step-labelq ">Question No. 1</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">2</div>
+        </div>
+        <div class="step-labelq ">Question No. 2</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">3</div>
+        </div>
+        <div class="step-labelq ">Question No. 3</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble-active">
+          <div class="count">4</div>
+        </div>
+        <div class="step-labelq ">Question No. 4</div>
+        <div class="step-line-active">
+              <div class="line-fill">
+              </div>
+        </div>
+      </li>
+      <li class="step">
+        <div class="step-bubble">
+          <div class="count">5</div>
+        </div>
+        <div class="step-labelq ">Question No. 5</div>
+      </li>
+    </ul>
+<!--Question Step End-->
     </div></div>
   <div><div class="stepper-content">
     
     <div class="stepper-panel">
-      <div class="">D. Management of Learnings</div>
+      <div class="py-5">D. Management of Learnings</div>
     </div>
-      <div class="stepper-panels">
+      <div class="stepper-panels py-8">
         <div class="stepper-quest">
-          <p>1. Creates opportunities for intensive and/or extensive contribution of students in the class activities (e.g. breaks class into dyads, triads or buzz/task groups).</p>
-          
-          <div class="buttons">
-          <button @click="color = 'green'"  class="rouded-full manage">5. Outstanding</button>
-          <button @click="color1 = 'green'" class="manage1">4. Very Satisfaction</button>
-          <button @click="color2 = 'green'" class="manage2"> 3. Satisfaction</button>
-          <button @click="color3 = 'green'" class="manage3">2. Fair</button>
-          <button @click="color4 = 'green'" class="manage4">1. Poor</button>
-          </div>
-          
-          <p>2. Assumes roles as facilitator, resource person, coach, inquisitor, integrator, referee in drawing students to contribution to contribute to knowledge and understanding the concepts at hands.</p>
-          
-          <div class="buttons">
-            <button @click="color5 = 'green'"  class="rouded-full manage5">5. Outstanding</button>
-            <button @click="color6 = 'green'" class="manage6">4. Very Satisfaction</button>
-            <button @click="color7 = 'green'" class="manage7">3. Satisfaction</button>
-            <button @click="color8 = 'green'" class="manage8">2. Fair</button>
-            <button @click="color9 = 'green'" class="manage9">1. Poor</button>
-          </div>
-          <p>3.  Designs and implements learning conditions and experience that promotes healthy exchange and/or confrontations.</p>
-          
-          <div class="buttons">
-            <button @click="color10 = 'green'"  class="rouded-full manage10">5. Outstanding</button>
-            <button @click="color11 = 'green'" class="manage11">4. Very Satisfaction</button>
-            <button @click="color12 = 'green'" class="manage12">3. Satisfaction</button>
-            <button @click="color13 = 'green'" class="manage13">2. Fair</button>
-            <button @click="color14 = 'green'" class="manage14">1. Poor</button>
-          </div>
-          <p>4. Structures/re-structures learning and teaching - learning context to enhance attainment of collective learning objectives.</p>
+          <p class="font-semibold">4. Structures/re-structures learning and teaching - learning context to enhance attainment of collective learning objectives.</p>
           
           <div class="buttons">
             <button @click="color15 = 'green'"  class="rouded-full manage15">5. Outstanding</button>
@@ -142,22 +164,14 @@ export default {
             <button @click="color18 = 'green'" class="manage18">2. Fair</button>
             <button @click="color19 = 'green'" class="manage19">1. Poor</button>
           </div>
-          <p>5. Use instructional materials (audio/video materials: field trips, film showing, computer aided instruction and etc.) to reinforce learning process.</p>
-          
-          <div class="buttons">
-            <button @click="color20 = 'green'"  class="rouded-full manage20">5. Outstanding</button>
-            <button  @click="color21 = 'green'" class="manage21">4. Very Satisfaction</button>
-            <button  @click="color22 = 'green'" class="manage22">3. Satisfaction</button>
-            <button  @click="color23 = 'green'" class="manage23">2. Fair</button>
-            <button  @click="color24 = 'green'" class="manage24">1. Poor</button>
-          </div>
         </div> 
-        <div class="flex justify-between ml-5 mt-10">
-            <div class="Preview">
-            <a href="/Independent"><button class=" btn button-next ">Preview</button></a> 
+        <div class=" ml-5 mt-10">
+            <!--<div class="Preview">
+            <a href="/Managementq3"><button class=" btn button-next ">Preview</button></a> 
         </div>
+            -->
           <div class="next">
-            <a href="/Comments"><button class=" btn button-next ">Next</button></a> 
+            <a href="/Managementq5"><button class=" btn button-next ">Next</button></a> 
           </div>
         </div>
       </div>
