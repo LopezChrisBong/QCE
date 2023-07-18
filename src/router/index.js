@@ -31,6 +31,7 @@ import QCEReport from '../components/pages/qcereports.vue'
 import FacultyReport from '../components/pages/facultyreport.vue'
 import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
+import Quiz from '../components/pages/quiz.vue'
 
 
 const routes =[
@@ -189,6 +190,11 @@ const routes =[
         path: '/choose',
         name: 'Choose',
         component: Choose
+    }, 
+    {
+        path: '/quiz',
+        name: 'Quiz',
+        component: Quiz
     }, 
    
 
