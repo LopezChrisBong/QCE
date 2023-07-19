@@ -15,60 +15,39 @@
                               href="#"
                               class="flex items-center p-2 space-x-3 rounded-md"
                           >
-                              <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke-width="1.5"
-                                  stroke="currentColor"
-                                  class="w-6 h-6 text-green-600"
-                              >
-                                  <path
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                                  />
-                              </svg>
+                          <Icon :name="'dashboard'"/>  
 
                               <span class="text-green-600">Dashboard</span>
                           </a>
                       </li>
                       <li>
 					<button @click="isHidden = !isHidden" type="button" class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
-            <Icon :name="'pdf'"/>      
-            <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>E-commerce</span>
-                  <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </button>
+            <Icon :name="'files'"/>      
+            <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Faculty Evaluation</span>
+            <Icon v-if="isHidden" :name="'chevron-down'"/>
+            <Icon v-else :name="'chevron-up'"/>
+
+           </button>
 					<ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden">
 						<li>
 							<a href="#"
-								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
 						</li>
 						<li>
 							<a href="#"
-								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">ITED</a>
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ITED</a>
 						</li>
 						<li>
 							<a href="#"
-								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
 						</li>
             <li>
 							<a href="#"
-								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">IC</a>
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IC</a>
 						</li>
 					</ul>
 				</li>
-                      <li class="rounded-sm ">
-                          <a
-                              href="#"
-                              class="flex items-center p-2 space-x-3 rounded-md hover:bg-lime-200"
-                          >
-                             <!--This icon in Component base-->
-                       <Icon :name="'pdf'"/>
-
-                              <span>Faculty Evaluation</span>
-                          </a>
-                      </li>
+          
                       
                       <li class="rounded-sm hover:bg-lime-200">
                           <a
@@ -182,77 +161,57 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="ml-5"><rect width="256" height="256" fill="none"/><circle cx="116" cy="116" r="84" fill="none" stroke="#004" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/></svg>
 
                               <input type="text" placeholder="Search"  class="rounded-lg pr-16 text-lg pl-2 tex"> </div>
-                  <div class=""><Button class="btn mr-4">Filter</Button></div>
+                  <div class=""><Button class="btn mr-4"> <Icon :name="'filter'"/>Filter</Button></div>
                 </div>
                 <div class=" flex justify-center">
                   <table class="table-fixed">
                       <thead>
                         <tr>
-                          <th >#</th>
                           <th >Evaluator Name</th>
                           <th >Date Evaluation</th>
                           <th >Evaluator Type</th>
-                          <th >Evaluation Result</th>
-                          <th ></th>
+                          <th >Evaluation Period</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>1</td>
-                          <td>Jane Cooper</td>
+                          
+                          <td>Evaluator 1</td>
                           <td>2/19/21</td>
                           <td>Student</td>
-                          <td>20</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td>A.Y. 2022-2023 2nd Sem</td>
+                          <td> </td>
                         </tr>
                         <tr>
-                          <td>2</td>
-                          <td>Wade Warren</td>
+                          
+                          <td>Evaluator 2</td>
                           <td>5/7/16</td>
                           <td>Peer</td>
-                          <td>14</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td>A.Y. 2022-2023 2nd Sem</td>
+                          <td> </td>
 
                         </tr>
                         <tr>
-                          <td>3</td>
-                          <td>Esther Howard</td>
+                          <td>Evaluator 3</td>
                           <td>9/18/16</td>
                           <td>Supervisor</td>
-                          <td>10</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td>A.Y. 2022-2023 2nd Sem</td>
+                          <td> </td>
 
                         </tr>
                         <tr>
-                          <td>4</td>
-                          <td>Cameron Williamson</td>
+                          <td>Evaluator 4</td>
                           <td>2/11/12</td>
                           <td>Student</td>
-                          <td>16</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td>A.Y. 2022-2023 2nd Sem</td>
+                          <td> </td>
                         </tr>
                          <tr>
-                          <td>5</td>
-                          <td>Brooklyn Simmons</td>
+                          <td>Evaluator 5</td>
                           <td>9/18/16</td>
                           <td>Student</td>
-                          <td>17</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td>A.Y. 2022-2023 2nd Sem</td>
+                          <td> </td>
                         </tr>
                       </tbody>
                     </table>
