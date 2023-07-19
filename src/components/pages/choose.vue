@@ -269,10 +269,7 @@
                           <td>2/19/21</td>
                           <td>Student</td>
                           <td>20</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td> </td>
                         </tr>
                         <tr>
                           <td>2</td>
@@ -280,10 +277,7 @@
                           <td>5/7/16</td>
                           <td>Peer</td>
                           <td>14</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td> </td>
 
                         </tr>
                         <tr>
@@ -292,10 +286,7 @@
                           <td>9/18/16</td>
                           <td>Supervisor</td>
                           <td>10</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td> </td>
 
                         </tr>
                         <tr>
@@ -304,10 +295,7 @@
                           <td>2/11/12</td>
                           <td>Student</td>
                           <td>16</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td> </td>
                         </tr>
                          <tr>
                           <td>5</td>
@@ -315,10 +303,7 @@
                           <td>9/18/16</td>
                           <td>Student</td>
                           <td>17</td>
-                          <td> <a
-                              href="FacultyReport"
-                              class="flex items-center p-2 space-x-3 rounded-md "
-                          ><button class="btn btn--green-1">View</button></a></td>
+                          <td> </td>
                         </tr>
                       </tbody>
                     </table>
@@ -482,7 +467,7 @@ import Icons from '../icon.vue'
       },
       menuItemsHoverColor: {
         type: String,
-        default: '#1d1b31',
+        default: '#DBF9E5',
       },
       menuItemsTextColor: {
         type: String,
@@ -737,7 +722,7 @@ import Icons from '../icon.vue'
   .sidebar li a:hover .links_name,
   .sidebar li a:hover i {
     transition: all 0.5s ease;
-    color: var(--bg-color);
+    color: black;
   }
   .sidebar li router-link {
     display: flex;

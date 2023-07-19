@@ -33,17 +33,45 @@
                               <span class="text-green-600">Dashboard</span>
                           </a>
                       </li>
+                      <li>
+					<button @click="isHidden = !isHidden" type="button" class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+               <!--This icon in Component base-->
+               <Icon :name="'pdf'"/>
+    
+            <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Faculty Evaluation</span>
+                  <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+					<ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden">
+						<li>
+							<a href="#"
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
+						</li>
+						<li>
+							<a href="#"
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">IC</a>
+						</li>
+						<li>
+							<a href="#"
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
+						</li>
+            <li>
+							<a href="#"
+								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 pl-11">ITED</a>
+						</li>
+					</ul>
+				</li>
+                     <!-- 
                       <li class="rounded-sm ">
                           <a
                               href="#"
                               class="flex items-center p-2 space-x-3 rounded-md hover:bg-lime-200"
                           >
-                             <!--This icon in Component base-->
                        <Icon :name="'pdf'"/>
 
                               <span>Faculty Evaluation</span>
                           </a>
                       </li>
+                    -->
                       
                       <li class="rounded-sm hover:bg-lime-200">
                           <a
@@ -70,6 +98,7 @@
                           </a>
 
                       </li>
+       
                   
                   </ul>
               </div>
@@ -238,10 +267,18 @@
 
 </template>
 <script>
-import Icon from '../icon.vue'
+import Icon from '../icon.vue'                
 export default {
   components: {
     Icon
+  },
+  methods: {
+    view(){
+      
+    }
+  },
+  data(){
+    return{isHidden:true}
   }
 }
 </script>
@@ -269,4 +306,6 @@ table td{
   padding: 1rem;
   align-content: right;
 }
+
+
 </style>

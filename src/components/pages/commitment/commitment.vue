@@ -174,7 +174,7 @@ export default {
         <div class="next">
          <a href="/Commitmentq2"><button class=" btn button-next ">Next</button></a> 
         </div>
-    </div>
+        </div>
     
 </div>
   </div>
