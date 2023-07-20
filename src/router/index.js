@@ -27,7 +27,7 @@ import Managementq4 from '../components/pages/Management/managementq4.vue'
 import Managementq5 from '../components/pages/Management/managementq5.vue'
 import Comments from '../components/pages/comments.vue'
 import Review from '../components/pages/review.vue'
-import QCEReport from '../components/pages/qcereports.vue'
+import QCEReportiaas from '../components/pages/qcereport/qcereportsiaas.vue'
 import FacultyReport from '../components/pages/facultyreport.vue'
 import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
@@ -172,9 +172,9 @@ const routes =[
         component: Review
     },
     {
-        path: '/qcereport',
-        name: 'QCEReport',
-        component: QCEReport
+        path: '/qcereportiaas',
+        name: 'QCEReportiaas',
+        component: QCEReportiaas
     }, 
     {
         path: '/facultyreport',

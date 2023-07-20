@@ -12,7 +12,7 @@
                     
                       <li class="rounded-sm hover:bg-lime-200">
                           <a
-                              href="#"
+                              href="/"
                               class="flex items-center p-2 space-x-3 rounded-md"
                           >
                           <Icon :name="'dashboard'"/>  
@@ -30,7 +30,7 @@
            </button>
 					<ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden">
 						<li>
-							<a href="#"
+							<a href="QCEReportiaas"
 								class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
 						</li>
 						<li>
@@ -51,7 +51,7 @@
                       
                       <li class="rounded-sm hover:bg-lime-200">
                           <a
-                              href="#"
+                              href="Pdfreport"
                               class="flex items-center p-2 space-x-3 rounded-md"
                           >
                           <!--This icon in Component base-->
