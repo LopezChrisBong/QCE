@@ -69,7 +69,7 @@
 
 
           <!--
-          <li id="dash"  class="flex"
+              <li id="dash"  class="flex"
             v-if="isDash"
             @click="isOpened = true"
           >
@@ -80,11 +80,14 @@
           <li id="dropdown"  class="flex"
             v-if="isDrop"
             @click="isOpened = true"
-          >
-         <Icons :name="'pdf'"/>
+          ><a href="FacultyReportiaas">
+            <Icons :name="'pdf'"/>
           <p >{{isDropItem}}</p>
+          </a>
+         
           </li>
           -->
+        
           
           
 
