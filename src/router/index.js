@@ -28,7 +28,13 @@ import Managementq5 from '../components/pages/Management/managementq5.vue'
 import Comments from '../components/pages/comments.vue'
 import Review from '../components/pages/review.vue'
 import QCEReportiaas from '../components/pages/qcereport/qcereportsiaas.vue'
-import FacultyReport from '../components/pages/facultyreport.vue'
+import QCEReportic from '../components/pages/qcereport/qcereportsic.vue'
+import QCEReportilegg from '../components/pages/qcereport/qcereportsilegg.vue'
+import QCEReportited from '../components/pages/qcereport/qcereportsited.vue'
+import FacultyReportiaas from '../components/pages/facultyreport/facultyreportiaas.vue'
+import FacultyReportic from '../components/pages/facultyreport/facultyreportic.vue'
+import FacultyReportilegg from '../components/pages/facultyreport/facultyreportilegg.vue'
+import FacultyReportited from '../components/pages/facultyreport/facultyreportited.vue'
 import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
 import Quiz from '../components/pages/quiz.vue'
@@ -177,9 +183,40 @@ const routes =[
         component: QCEReportiaas
     }, 
     {
-        path: '/facultyreport',
-        name: 'FacultyReport',
-        component: FacultyReport
+        path: '/qcereportic',
+        name: 'QCEReportic',
+        component: QCEReportic
+    }, 
+    {
+        path: '/qcereportited',
+        name: 'QCEReportited',
+        component: QCEReportited
+    }, 
+    {
+        path: '/qcereportilegg',
+        name: 'QCEReportilegg',
+        component: QCEReportilegg
+    }, 
+    {
+        path: '/facultyreportiaas',
+        name: 'FacultyReportiaas',
+        component: FacultyReportiaas
+    }, 
+  
+    {
+        path: '/facultyreportilegg',
+        name: 'FacultyReportilegg',
+        component: FacultyReportilegg
+    }, 
+    {
+        path: '/facultyreportic',
+        name: 'FacultyReportic',
+        component: FacultyReportic
+    }, 
+    {
+        path: '/facultyreportited',
+        name: 'FacultyReportited',
+        component: FacultyReportited
     }, 
     {
         path: '/pdfreport',

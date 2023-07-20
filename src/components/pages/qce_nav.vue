@@ -1,7 +1,7 @@
 <template>
  <div class="sticky top-0 bg-[#FFFFFF] z-40">
     <div class="flex justify-between shadow-md">
-        <div class="">
+        <div class="mx-5">
           <!--   <nav class="flex justify-left space-x-10 main-nav ">
             <img alt="Vue logo" class="logo ml-8" src="../../assets/pix/SummerLms.gif" width="125" height="" />
             <a href="/" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Dashboard</a>

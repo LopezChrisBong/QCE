@@ -31,7 +31,7 @@
                       <ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden">
                           <li >
                               <a href="Qcereportiaas"
-                                  class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11"> <span class="text-green-600">IAAS</span> </a>
+                                  class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11"> <span >IAAS</span> </a>
                           </li>
                           <li>
                               <a href="Qcereportited"
@@ -39,7 +39,7 @@
                           </li>
                           <li>
                               <a href="Qcereportilegg"
-                                  class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
+                                  class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11"><span class="text-green-600">ILEGG</span></a>
                           </li>
               <li>
                               <a href="Qcereportic"
@@ -188,7 +188,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportiaas"><button class="bg-green-600">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg"><button class="bg-green-600">View Evaluator</button></a></td>
                           </tr>
                           <tr>
                             
@@ -197,7 +197,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportiaas"><button class="bg-green-600">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg"><button class="bg-green-600">View Evaluator</button></a></td>
   
                           </tr>
                           <tr>
@@ -206,7 +206,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportiaas"><button class="bg-green-600">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg"><button class="bg-green-600">View Evaluator</button></a></td>
   
                           </tr>
                           <tr>
@@ -215,7 +215,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportiaas"><button class="bg-green-600">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg"><button class="bg-green-600">View Evaluator</button></a></td>
                           </tr>
                            <tr>
                             <td>Faculty 5</td>
@@ -223,7 +223,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportiaas"><button class="bg-green-600">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg"><button class="bg-green-600">View Evaluator</button></a></td>
                           </tr>
                         </tbody>
                       </table>

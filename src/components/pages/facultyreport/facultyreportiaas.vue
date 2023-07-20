@@ -137,7 +137,7 @@
               <div class="mt-1 text-xl font-semibold text-gray-900">Esther Howard - Bachelor of Science and Information Technology</div>
               <div class="flex">
                  <div><a
-                                href="QCEReport"
+                                href="QCEReportiaas"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="bg-green-500 p-2 pl-2 pr-2 ml-5 text-xs lg:text-lg"><span>Back Report</span></button></a></div>
                 
@@ -241,7 +241,7 @@
                     <table class="table-fixed">
                         <thead>
                           <tr>
-                            <th >#</th>
+                           
                             <th >Evaluators Name</th>
                             <th >Evaluator Type</th>
                             <th >Commitment <br> 20%</th>
@@ -253,7 +253,7 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>1</td>
+                           
                             <td>Jane Cooper</td>
                             <td>Student</td>
                             <td>16%</td>
@@ -266,7 +266,7 @@
                             ><button class="btn btn--green-1">View</button></a></td>
                           </tr>
                           <tr>
-                            <td>2</td>
+                            
                             <td>Wade Warren</td>
                             <td>Student</td>
                             <td>20%</td>
@@ -280,7 +280,7 @@
   
                           </tr>
                           <tr>
-                            <td>3</td>
+                           
                             <td>Esther Howard</td>
                             <td>Student</td>
                             <td>12%</td>
@@ -294,7 +294,7 @@
   
                           </tr>
                           <tr>
-                            <td>4</td>
+                          
                             <td>Cameron Williamson</td>
                             <td>Supervisor</td>
                             <td>15%</td>
@@ -308,7 +308,7 @@
   
                           </tr>
                            <tr>
-                            <td>5</td>
+                         
                             <td>Brooklyn Simmons</td>
                             <td>Peer</td>
                             <td>19%</td>
