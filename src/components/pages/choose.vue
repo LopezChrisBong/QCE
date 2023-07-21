@@ -67,31 +67,60 @@
           </li>-->
 
 
-
-          <!--
-              <li id="dash"  class="flex"
+<!-- 
+         
+          <li id="dash"  class="flex"
             v-if="isDash"
             @click="isOpened = true"
           >
-         <Icons :name="'dashed'"/>
-          <p >{{isDashedItem}}</p>
+         <Icons :name="'dashed'" class="bx"/>
+         <span class="links_name"><p >{{isDashedItem}}</p></span> 
           </li>
-
+          <li v-else>
+            <Icons :name="'dashed'" class="bx"/>
+          </li>
+             -->
           <li id="dropdown"  class="flex"
-            v-if="isDrop"
-            @click="isOpened = true"
-          ><a href="FacultyReportiaas">
-            <Icons :name="'pdf'"/>
-          <p >{{isDropItem}}</p>
+          ><a v-if="isOpened" href="FacultyReportiaas">
+            <Icons :name="'grid-alt'" class="bx"/>
+          <span class="links_name"><p>Dashboard</p></span>
+          </a >
+          <a v-else>
+            <Icons :name="'grid-alt'" class="bx"/>
           </a>
-         
           </li>
-          -->
-        
-          
-          
+           <!--Dropdown-->
+           <li><a></a>
+              <button @click="isHidden = !isHidden" type="button" class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+                            <Icon :name="'files'"/>      
+                            <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Faculty Evaluation</span>
+                            <Icon v-if="isHidden" :name="'chevron-down'"/>
+                            <Icon v-else :name="'chevron-up'"/>
 
-          <li
+              </button>
+                          <ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden">
+                            <li>
+                              <a href="QCEReportiaas"
+                                class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ITED</a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
+                            </li>
+                            <li>
+                              <a href="#"
+                                class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IC</a>
+                            </li>
+                          </ul>
+              </li>
+
+         
+          
+          <!--  <li
             v-for="(menuItem, index) in menuItems"
             :key="index"
             :id="'links_' + index"
@@ -124,6 +153,10 @@
               menuItem.tooltip || menuItem.name
             }}</span>
           </li>
+          -->
+          
+
+        
           
 
           
@@ -321,6 +354,9 @@ import Icons from '../icon.vue'
     components:{
       Icons
     },
+    data(){
+    return{isHidden:false}
+  },
 
     name: 'SidebarMenuAkahon',
     props: {
@@ -357,22 +393,7 @@ import Icons from '../icon.vue'
         type: String,
         default: '78px',
       },
-      isDash: {
-        type: Boolean,
-        default: true,
-      },
-      isDashedItem:{
-        type: String,
-        default:'Dashboard',
-      },
-      isDrop: {
-        type: Boolean,
-        default: true,
-      },
-      isDropItem:{
-        type: String,
-        default:'Faculty Evaluation',
-      },
+   
       //! Menu items
       menuItems: {
         type: Array,

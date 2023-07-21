@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
 import Home from '../components/pages/home.vue'
-import Nav from '../components/pages/qce_nav.vue'
+import Nav from '../components/pages/navigation/qce_nav.vue'
 import Response from '../components/pages/response.vue'
 import ResponseForm from '../components/pages/response_form.vue'
 import Evaluation from '../components/pages/qce_evaluation.vue'

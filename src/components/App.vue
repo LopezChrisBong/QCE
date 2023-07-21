@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-import Nav from './pages/qce_nav.vue'
+import Nav from './pages/navigation/qce_nav.vue'
 </script>
