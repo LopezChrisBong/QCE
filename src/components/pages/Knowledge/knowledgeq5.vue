@@ -1,4 +1,6 @@
 <script>
+import Stepperknow from '../Stepper/Stepperknow.vue';
+import Stepperq5 from '../Stepper/stepperq5.vue';
 export default {
   data() {
     return {
@@ -11,142 +13,22 @@ export default {
       color2: 'none',
       color3: 'none',
       color4: 'none',
-      color5: 'none',
-      color6: 'none',
-      color7: 'none',
-      color8: 'none',
-      color9: 'none',
-      color10: 'none',
-      color11: 'none',
-      color12: 'none',
-      color13: 'none',
-      color14: 'none',
-      color15: 'none',
-      color16: 'none',
-      color17: 'none',
-      color18: 'none',
-      color19: 'none',
-      color20: 'none',
-      color21: 'none',
-      color22: 'none',
-      color23: 'none',
-      color24: 'none',
+      
     }
   },
+  components:{
+    Stepperknow,
+    Stepperq5
+  }
 }
 </script>
 <template>
   <div class="flex justify-center">
     <div class="w-10/12  lg:w-8/12">
   <div><div class="steps-container">
-      <ul class="steps-list">
-        <li class="step">
-          <div class="step-bubble-active">
-            <div class="count">1</div>
-          </div>
-          <div class="step-label ">Commitment</div>
-          <div class="step-line-active">
-                <div class="line-fill">
-                </div>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step-bubble-active">
-            <div class="count">2</div>
-          </div>
-          <div class="step-label ">Knowledge of the subject matter</div>
-          <div class="step-line-active">
-                <div class="line-fill">
-                </div>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step-bubble">
-            <div class="count">3</div>
-          </div>
-          <div class="step-label ">Teacher for independent learning</div>
-          <div class="step-line">
-                <div class="line-fill">
-                </div>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step-bubble">
-            <div class="count">4</div>
-          </div>
-          <div class="step-label ">Management of Learnings</div>
-          <div class="step-line">
-                <div class="line-fill">
-                </div>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step-bubble">
-            <div class="count">5</div>
-          </div>
-          <div class="step-label ">Comments</div>
-          <div class="step-line">
-                <div class="line-fill">
-                </div>
-          </div>
-        </li>
-        <li class="step-last">
-          <div class="step-bubble">
-            <div class="count">6</div>
-          </div>
-          <div class="step-label">Review</div>
-        </li>
-      </ul>
-      <!-- Question Steps-->
-     <ul class="steps-list mt-14 ml-32">
-      <li class="step">
-        <div class="step-bubble-active">
-          <div class="count">1</div>
-        </div>
-        <div class="step-labelq ">Question No. 1</div>
-        <div class="step-line-active">
-              <div class="line-fill">
-              </div>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step-bubble-active">
-          <div class="count">2</div>
-        </div>
-        <div class="step-labelq ">Question No. 2</div>
-        <div class="step-line-active">
-              <div class="line-fill">
-              </div>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step-bubble-active">
-          <div class="count">3</div>
-        </div>
-        <div class="step-labelq ">Question No. 3</div>
-        <div class="step-line-active">
-              <div class="line-fill">
-              </div>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step-bubble-active">
-          <div class="count">4</div>
-        </div>
-        <div class="step-labelq ">Question No. 4</div>
-        <div class="step-line-active">
-              <div class="line-fill">
-              </div>
-        </div>
-      </li>
-      <li class="step">
-        <div class="step-bubble-active">
-          <div class="count">5</div>
-        </div>
-        <div class="step-labelq ">Question No. 5</div>
-      </li>
-    </ul>
-<!--Question Step End-->
+    
+    <Stepperknow />
+    <Stepperq5 />
     </div></div>
   <div>    <div class="stepper-content">
     

@@ -1,6 +1,6 @@
 <template>
 <div class="flex justify-center">
-  <div class="w-10/12 lg:w-6/12">
+  <div class="w-10/12 lg:w-8/12">
   <div><div class="steps-container">
       <ul class="steps-list">
         <li class="step">
