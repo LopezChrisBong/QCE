@@ -355,7 +355,7 @@ import Icons from '../icon.vue'
       Icons
     },
     data(){
-    return{isHidden:false}
+    return{isHidden:true}
   },
 
     name: 'SidebarMenuAkahon',

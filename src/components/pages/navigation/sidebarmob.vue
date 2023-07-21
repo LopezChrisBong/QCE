@@ -81,7 +81,7 @@
             </li>
                -->
             <li id="dropdown"  class="flex"
-            ><a v-if="isOpened" href="FacultyReportiaas">
+            ><a v-if="isOpened" href="/">
               <Icon :name="'grid-alt'" class="bx"/>
             <span class="links_name"><p>Dashboard</p></span>
             </a >
@@ -90,104 +90,62 @@
             </a>
             </li>
              <!--Dropdown-->
-             <li ><a v-if="isOpened">
-                <button @click="isHidden = !isHidden" type="button" class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
+             <li >
+                <button v-if="isOpened" style="border: none; margin-left: -10px; " @click="isHidden = !isHidden" type="button" class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75  group dark:text-white :hover:bg-lime-200" aria-controls="dropdown-example" data-collapse-toggle="dropdown-example">
                               <Icon :name="'files'"/>      
                               <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Faculty Evaluation</span>
                               <Icon v-if="isHidden" :name="'chevron-down'"/>
                               <Icon v-else :name="'chevron-up'"/>
   
-                </button></a> <a v-else class="mb-2">
+                </button>
+                <a v-else class="mb-2" > <Icon :name="'files'"/>  </a>
+            
+           <!--<a v-else class="mb-2">
                                 <Icon :name="'files'"/> 
                             </a>
+        --> 
                             <ul id="dropdown-example" class=" py-2 space-y-2" v-show="!isHidden" v-if="isOpened">
                               <li>
                                 <a href="QCEReportiaas"
                                   class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IAAS</a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="QCEReportited"
                                   class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ITED</a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="QCEReportilegg"
                                   class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">ILEGG</a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="QCEReportic"
                                   class="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-lime-200 dark:text-white dark:hover:bg-gray-700 pl-11">IC</a>
                               </li>
                             </ul>
                             <ul v-else ></ul>
                            
                 </li>
-                <li>
-                    <a v-if="isOpened">
-                        <button>Love</button>
-                    </a>
-                </li>
+                
 
                 <li id="dropdown"  class="flex"
-            ><a v-if="isOpened" href="FacultyReportiaas">
-              <Icon :name="'grid-alt'" class="bx"/>
-            <span class="links_name"><p>Dashboard</p></span>
+            ><a v-if="isOpened" href="Pdfreport">
+              <Icon :name="'printer'" class="bx"/>
+            <span class="links_name"><p>Print Report</p></span>
             </a >
             <a v-else class="mb-2">
-              <Icon :name="'grid-alt'" class="bx "/>
+              <Icon :name="'printer'" class="bx "/>
             </a>
             </li>
             <li id="dropdown"  class="flex"
-            ><a v-if="isOpened" href="FacultyReportiaas">
-              <Icon :name="'grid-alt'" class="bx"/>
-            <span class="links_name"><p>Dashboard</p></span>
+            ><a v-if="isOpened" href="Commitment">
+              <Icon :name="'question'" class="bx"/>
+            <span class="links_name"><p>Question</p></span>
             </a >
             <a v-else class="mb-2">
-              <Icon :name="'grid-alt'" class="bx"/>
+              <Icon :name="'question'" class="bx"/>
             </a>
             </li>
   
-           
-            
-            <!--  <li
-              v-for="(menuItem, index) in menuItems"
-              :key="index"
-              :id="'links_' + index"
-            >
-              <router-link
-                v-if="isUsedVueRouter"
-                :to="menuItem.link"
-              >
-                <i
-                  class="bx"
-                  :class="menuItem.icon || 'bx-square-rounded'"
-                />
-                <span class="links_name">{{ menuItem.name }}</span>
-              </router-link>
-              <a
-                v-else
-                @click.stop.prevent="$emit('menuItemClcked', menuItem.link)"
-                :href="menuItem.link"
-              >
-                <i
-                  class="bx"
-                  :class="menuItem.icon || 'bx-square-rounded'"
-                />
-                <span class="links_name">{{ menuItem.name }}</span>
-              </a>
-              <span
-                :data-target="'links_' + index"
-                class="tooltip"
-              >{{
-                menuItem.tooltip || menuItem.name
-              }}</span>
-            </li>
-            -->
-            
-  
-          
-            
-  
-            
           </ul>
         </div>
   
@@ -243,10 +201,6 @@
           type: Boolean,
           default: true,
         },
-        isUsedVueRouter: {
-          type: Boolean,
-          default: false,
-        },
         menuTitle: {
           type: String,
           default: 'DNSC QCE',
@@ -273,35 +227,35 @@
         },
      
         //! Menu items
-        menuItems: {
-          type: Array,
-          default: () => [
-            {
-              link: '/',
-              name: 'Dashboard',
-              tooltip: 'Dashboard',
-              icon: 'bx-grid-alt',
-            },
-            {
-              link: '#',
-              name: 'Faculty Evaluation',
-              tooltip: 'Faculty Evaluation',
-              icon: 'bx-file',
-            },
-            {
-              link: '/qcereport',
-              name: 'Print Report',
-              tooltip: 'Print Report',
-              icon: 'bx-file',
-            },
-            {
-              link: '/qcereport',
-              name: 'QCE Questions',
-              tooltip: 'Qce Questions',
-              icon: 'bx-pie-chart-alt-2',
-            },
-          ],
-        },
+        // menuItems: {
+        //   type: Array,
+        //   default: () => [
+        //     {
+        //       link: '/',
+        //       name: 'Dashboard',
+        //       tooltip: 'Dashboard',
+        //       icon: 'bx-grid-alt',
+        //     },
+        //     {
+        //       link: '#',
+        //       name: 'Faculty Evaluation',
+        //       tooltip: 'Faculty Evaluation',
+        //       icon: 'bx-file',
+        //     },
+        //     {
+        //       link: '/qcereport',
+        //       name: 'Print Report',
+        //       tooltip: 'Print Report',
+        //       icon: 'bx-file',
+        //     },
+        //     {
+        //       link: '/qcereport',
+        //       name: 'QCE Questions',
+        //       tooltip: 'Qce Questions',
+        //       icon: 'bx-pie-chart-alt-2',
+        //     },
+        //   ],
+        // },
         //! Search
         isSearch: {
           type: Boolean,
@@ -607,6 +561,7 @@
     }
     .sidebar li a:hover {
       background: var(--menu-items-hover-color);
+      padding: 10px;
     }
     .sidebar li a .links_name {
       color: var(--menu-items-text-color);
@@ -626,7 +581,7 @@
       transition: all 0.5s ease;
       color: black;
     }
-    .sidebar li router-link {
+    /* .sidebar li router-link {
       display: flex;
       height: 100%;
       width: 100%;
@@ -656,7 +611,7 @@
     .sidebar li router-link:hover i {
       transition: all 0.5s ease;
       color: var(--bg-color);
-    }
+    } */
     .sidebar li i {
       height: 50px;
       line-height: 50px;

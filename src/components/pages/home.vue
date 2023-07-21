@@ -2,7 +2,7 @@
   <div class="flex">
       <!--<Sidebar />-->  
         <SidebarmobVue />
-      <div class="container mt-12">
+      <div class="container mt-12 ml-8">
             <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
