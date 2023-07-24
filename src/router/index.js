@@ -38,6 +38,7 @@ import FacultyReportited from '../components/pages/facultyreport/facultyreportit
 import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
 import Quiz from '../components/pages/quiz.vue'
+import Tables from '../components/pages/Table.vue'
 
 
 const routes =[
@@ -232,6 +233,11 @@ const routes =[
         path: '/quiz',
         name: 'Quiz',
         component: Quiz
+    }, 
+    {
+        path: '/tables',
+        name: 'Tables',
+        component: Tables
     }, 
    
 

@@ -35,7 +35,6 @@ export default {
   </div>
   <div>
   <div class="stepper-content">
-  
   <div class="stepper-panel">
     <div class="py-5">A. Commitment</div>
   </div>
