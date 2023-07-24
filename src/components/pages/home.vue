@@ -1,7 +1,5 @@
 <template>
   <div class="flex">
-      <!--<Sidebar />-->  
-        <SidebarmobVue />
       <div class="container mt-12 ml-8">
             <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
@@ -85,7 +83,7 @@
                   <div class=""><Button class="btn mr-4"> <Icon :name="'filter'"/>Filter</Button></div>
                 </div>
                 <div class=" flex justify-center">
-                 <!--<table class="table-fixed">
+           <table class="table-fixed">
                       <thead>
                         <tr>
                           <th >Evaluator Name</th>
@@ -136,7 +134,8 @@
                         </tr>
                       </tbody>
                     </table>
-                --> 
+          <!--
+         
               <Table class="mt-6 md:mt-0 lg:mt-0 xl:mt-0" :idName="'myWorksTable'" :labels="table_headers"
                 :data="displayedJournals" :notifField="'file_id'" :notifID="notifID">
                 <template v-slot:file_createdAt="{ item }">
@@ -177,7 +176,7 @@
                 
                 </div>
                 <div class="hidden md:flex lg:flex xl:flex 2xl:flex w-1/3 md:w-2/5">
-                    <!-- <div class="flex" v-if="results != 0"> -->
+                   // <div class="flex" v-if="results != 0">
                     <span class="text-xs m-auto text-gray-600 dark:text-gray-400">
                       Showing
                       <span class="font-semibold text-gray-900 dark:text-white">{{ fromPage }}</span>
@@ -188,26 +187,23 @@
                       Entries
                     </span>
                   </div>
+                  
             </div>
-      </div>
-               
+      </div>  -->  
+             
+  </div>  
   </div> 
   </div>
-  </div>
-
+</div>
 
 </template>
 <script> 
-import Sidebar from './navigation/sidebar.vue';            
-import SidebarmobVue from './navigation/sidebarmob.vue';
 import Icon from '../icon.vue'
 import Table from './Table.vue';
 export default {
   components: {
-    Sidebar,
-    SidebarmobVue,
-    Icon
-    
+    Icon,
+    Table
   },
   methods: {
     view(){

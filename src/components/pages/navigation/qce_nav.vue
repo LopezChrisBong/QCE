@@ -1,4 +1,5 @@
 <template>
+  <Sidebarmob />
  <div class="sticky top-0 bg-[#FFFFFF] z-40">
     <div class="flex justify-between shadow-md">
         <div class="mx-5">
@@ -36,8 +37,14 @@
 <style> 
 
 </style>
-<script setup>
+<script >
     import {ref} from 'vue'
-
+    import Sidebarmob from './sidebarmob.vue';
     const color =ref('red')
+
+    export default{
+        components:{
+          Sidebarmob
+        }
+    }
 </script>
