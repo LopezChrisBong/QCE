@@ -1,7 +1,6 @@
 
 <template>
     <div class="flex">
-        <Sidebarmob />
         <div class="container mx-auto mt-12">
               <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
                   <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
@@ -156,12 +155,10 @@
   
   </template>
   <script>
-  import Icon from '../../icon.vue'
-  import Sidebarmob from '../navigation/sidebarmob.vue';                
+  import Icon from '../../icon.vue'             
   export default {
     components: {
       Icon,
-      Sidebarmob
     },
     methods: {
       view(){
