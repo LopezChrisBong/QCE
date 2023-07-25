@@ -1,6 +1,6 @@
 <template>
     <div
-      class="sidebar ml-2"
+      class="sidebar "
       :class="isOpened ? 'open' : ''"
       :style="cssVars"
     >
@@ -20,9 +20,13 @@
           class="bx icon"
           :class="menuIcon"
         />-->
-        <div class="logo_name">
+        <div v-if="isOpened" class="logo_name">
           {{ menuTitle }}
         </div>
+        <div v-else>
+
+        </div>
+
         <i
           class="bx"
           :class="isOpened ? 'bx-menu-alt-right' : 'bx-menu'"
@@ -85,9 +89,9 @@
               <Icon :name="'grid-alt'" class="bx"/>
             <span class="links_name"><p>Dashboard</p></span>
             </a >
-            <a v-else class="mb-2">
+           <!--<a v-else class="mb-2">
               <Icon :name="'grid-alt'" class="bx" />
-            </a>
+            </a>--> 
             </li>
              <!--Dropdown-->
              <li >
@@ -98,7 +102,7 @@
                               <Icon v-else :name="'chevron-up'"/>
   
                 </button>
-                <a v-else class="mb-2" > <Icon :name="'files'"/>  </a>
+             <!--   <a v-else class=" mb-2" > <Icon :name="'files'"/>  </a>-->
             
            <!--<a v-else class="mb-2">
                                 <Icon :name="'files'"/> 
@@ -132,18 +136,18 @@
               <Icon :name="'printer'" class="bx"/>
             <span class="links_name"><p>Print Report</p></span>
             </a >
-            <a v-else class="mb-2">
+           <!--<a v-else class="mb-2">
               <Icon :name="'printer'" class="bx "/>
-            </a>
+            </a>--> 
             </li>
             <li id="dropdown"  class="flex"
             ><a v-if="isOpened" href="Commitment">
               <Icon :name="'question'" class="bx"/>
             <span class="links_name"><p>Question</p></span>
             </a >
-            <a v-else class="mb-2">
+           <!-- <a v-else class="mb-2">
               <Icon :name="'question'" class="bx"/>
-            </a>
+            </a>-->
             </li>
   
           </ul>

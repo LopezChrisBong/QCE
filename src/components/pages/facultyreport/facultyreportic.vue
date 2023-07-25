@@ -261,7 +261,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td> <a
-                                href="Commitment"
+                                href="Quiz"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="btn btn--green-1">View</button></a></td>
                           </tr>
@@ -274,7 +274,7 @@
                             <td>14%</td>
                             <td>14%</td>
                             <td> <a
-                                href="Commitment"
+                                href="Quiz"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="btn btn--green-1">View</button></a></td>
   
@@ -288,7 +288,7 @@
                             <td>10%</td>
                             <td>10%</td>
                             <td> <a
-                                href="Commitment"
+                                href="Quiz"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="btn btn--green-1">View</button></a></td>
   
@@ -302,7 +302,7 @@
                             <td>16%</td>
                             <td>16%</td>
                             <td> <a
-                                href="Commitment"
+                                href="Quiz"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="btn btn--green-1">View</button></a></td>
   
@@ -316,7 +316,7 @@
                             <td>17%</td>
                             <td>17%</td>
                             <td> <a
-                                href="Commitment"
+                                href="Quiz"
                                 class="flex items-center p-2 space-x-3 rounded-md"
                             ><button class="btn btn--green-1">View</button></a></td>
   

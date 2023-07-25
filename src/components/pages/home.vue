@@ -1,23 +1,23 @@
 <template>
   <SidebarmobVue />
   <div class="flex">
-      <div class="container mt-12 ml-8">
-            <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
+      <div class="container mt-12 ml-6">
+            <div class="grid grid-cols-1 lg:gap-20 gap-6 mb-6 lg:grid-cols-4">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
                   <div class="row-span-3 bg-green-500 border rounded-md h-16 w-16 -mr-16"> </div>
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Students
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="lg:text-sm text-xs font-medium text-gray-500 truncate">
                       6,230 Evaluators
                     </div> </div>
-                    <div class="mt-1 text-3xl font-semibold text-gray-900">
+                    <div class="mt-1 lg:text-3xl text-xl font-semibold text-gray-900">
                       6,230 <span class="text-sm font-medium text-green-500 truncate">100%</span> 
                     </div>
                    
                     <div class="text-sm font-medium bg-green-500 truncate line-fill rounded-sm">
-                      s
+                      
                     </div>
                     
                 </div>
@@ -25,10 +25,10 @@
                   <div class="grid grid-rows-3 grid-flow-col gap-">
                   <div class="row-span-3 bg-blue-500 border rounded-md h-16 w-16 -mr-16"> </div>
 
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Peer
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="lg:text-sm text-xs font-medium text-gray-500 truncate">
                       63 Evaluators
                     </div>
                   </div>
@@ -42,10 +42,10 @@
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
                   <div class="row-span-3 bg-orange-500 border rounded-md h-16  w-16 -mr-16"> </div>
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Self
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="lg:text-sm text-xs font-medium text-gray-500 truncate">
                       121 Evaluators
                     </div>
                     </div>
@@ -59,10 +59,10 @@
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
                   <div class="row-span-3 bg-violet-500 border rounded-md h-16 w-16 -mr-16"> </div>
-                    <div class="mt-1 text-xl font-semibold text-gray-900">
+                    <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Supervisor
                     </div>
-                    <div class="text-sm font-medium text-gray-500 truncate">
+                    <div class="lg:text-sm text-xs font-medium text-gray-500 truncate">
                       4 Evaluators
                     </div>
                     </div>

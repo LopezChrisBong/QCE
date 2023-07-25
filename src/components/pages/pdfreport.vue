@@ -3,10 +3,10 @@
 
         <div class="flex justify-center shadow border w-6/12 lg:w-8/12 min-h-max">
             <div class="w-12/12">
-                <div class="flex justify-center w-8/12">
-                     <img src="../../assets/pix/Capture.PNG" alt="Header" class="header" id="header">
+                <div class="flex justify-center">
+                     <img src="../../assets/pix/Capture.PNG" alt="Header" class="header" id="header" width="15rem">
                 </div>
-                <div class="flex justify-center"><p>___________________________________________________________________________________________________________________________________________________________</p></div>
+                <div class="flex justify-center"><p>_______________________________________________________________________________________________________________</p></div>
                 <div>
                     <div class="text-center" id="body-pdf">
                         <p class="mt-1 text-xl font-semibold text-gray-900">QUALITATIVE CONTRIBUTION (QCE) RESULTS</p>
@@ -113,7 +113,7 @@
     
 </template>
 
-<style> 
+<style scss> 
    p{
     margin: .2rem;
    }
