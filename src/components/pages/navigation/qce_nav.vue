@@ -8,11 +8,11 @@
             <a href="/commitment" class="font-bold px-3 py-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">QCE FORM</a>
             </nav>-->
 
-        <p class="font-bold text-lg">QCE FACULTY EVALUATION</p>
+        <p class="font-bold lg:text-lg  md:text-md text-xs" >QCE FACULTY EVALUATION</p>
         <p class="text-sm text-slate-500">A.Y. 2022-2023 2nd Semester</p>
         </div>
         <div class="flex mr-4 z-index-1">
-            <select class=" rouded-lg">
+            <select class="rouded-lg">
                 <option></option>
                 <option>Setting</option>
                 <option>Profile</option>
@@ -30,12 +30,7 @@
     </nav>
   </div>
 </div> 
-
-
 </template>
-<style> 
-
-</style>
 <script >
     import {ref} from 'vue'
     import Sidebarmob from './sidebarmob.vue';

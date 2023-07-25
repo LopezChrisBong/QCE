@@ -1,9 +1,9 @@
 <template>
-    <div class="flex justify-center">
+    <div class="flex justify-center" >
 
         <div class="flex justify-center shadow border w-6/12 lg:w-8/12 min-h-max">
             <div class="w-12/12">
-                <div class="flex justify-center ">
+                <div class="flex justify-center w-8/12">
                      <img src="../../assets/pix/Capture.PNG" alt="Header" class="header" id="header">
                 </div>
                 <div class="flex justify-center"><p>___________________________________________________________________________________________________________________________________________________________</p></div>
