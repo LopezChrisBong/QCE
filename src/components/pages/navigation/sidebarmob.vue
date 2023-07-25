@@ -128,7 +128,7 @@
                 
 
                 <li id="dropdown"  class="flex"
-            ><a v-if="isOpened" href="Pdfreport">
+            ><a v-if="isOpened" href="PrintReport">
               <Icon :name="'printer'" class="bx"/>
             <span class="links_name"><p>Print Report</p></span>
             </a >

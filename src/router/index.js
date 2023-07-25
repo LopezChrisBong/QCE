@@ -39,6 +39,7 @@ import Pdfreport from '../components/pages/pdfreport.vue'
 import Choose from '../components/pages/choose.vue'
 import Quiz from '../components/pages/quiz.vue'
 import Tables from '../components/pages/Table.vue'
+import PrintReport from '../components/pages/printreport.vue'
 
 
 const routes =[
@@ -239,7 +240,11 @@ const routes =[
         name: 'Tables',
         component: Tables
     }, 
-   
+    {
+        path: '/printreport',
+        name: 'PrintReport',
+        component: PrintReport
+    }, 
 
 ]
 
