@@ -1,5 +1,6 @@
 
 <template>
+    <SidebarmobVue /> 
     <div class="flex">
         <div class="container mx-auto mt-12">
               <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
@@ -155,10 +156,13 @@
   
   </template>
   <script>
-  import Icon from '../../icon.vue'             
+  import Icon from '../../icon.vue'  
+  import SidebarmobVue from '../navigation/sidebarmob.vue'
+           
   export default {
     components: {
       Icon,
+      SidebarmobVue
     },
     methods: {
       view(){

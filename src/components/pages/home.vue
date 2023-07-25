@@ -1,4 +1,5 @@
 <template>
+  <SidebarmobVue />
   <div class="flex">
       <div class="container mt-12 ml-8">
             <div class="grid grid-cols-2 gap-6 mb-6 lg:grid-cols-4">
@@ -199,11 +200,13 @@
 </template>
 <script> 
 import Icon from '../icon.vue'
+import SidebarmobVue from './navigation/sidebarmob.vue';
 import Table from './Table.vue';
 export default {
   components: {
     Icon,
-    Table
+    Table,
+    SidebarmobVue
   },
   methods: {
     view(){
