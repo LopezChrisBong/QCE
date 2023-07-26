@@ -7,7 +7,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 l-10"> </div>
                          <div class="">
-                            <div class="ml-10"><p class=" lg:text-normal text-xs   -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class=" lg:text-normal text-xs  font-bold -ml-6 ">Overall QCE Report</p></div>
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                           
                         </div>
@@ -17,7 +17,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold  -ml-6 ">COS Overall QCE Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                            
@@ -28,7 +28,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Plantilla Overall QCE Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                            
@@ -39,7 +39,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Supervisor QCE Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                            
@@ -50,7 +50,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Supervisor Comments Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                           
@@ -61,7 +61,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Peer QCE Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
 
@@ -72,7 +72,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Peer Comments Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                          
@@ -83,7 +83,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Student QCE Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                     
@@ -94,7 +94,7 @@
                         <div class="grid grid-rows-1 grid-flow-col">
                          <div class="row-span-2 bg-green-100 border rounded-md w-16 h-12 "> </div>
                          <div class="">
-                            <div class="ml-10"><p class="lg:text-normal text-xs  -ml-6 ">Overall QCE Report</p></div>
+                            <div class="ml-10"><p class="lg:text-normal text-xs font-bold -ml-6 ">Students Comments Report</p></div>
 
                             <div class=" mt-4"><a href="Pdfreport"><button style="border: none;" class="bg-green-400 h-10 text-xs text-center p-2">Print Report</button></a></div>
                           

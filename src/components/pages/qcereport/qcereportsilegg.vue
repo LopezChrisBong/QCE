@@ -109,7 +109,7 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportilegg"><button class="bg-green-600 px-1 py-1 text-center">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg" class="bg-green-600 px-1 py-1 text-center text-xs py-2 px-2 rounded-md shadow-md hover:bg-green-400 text-[#fff]  ">View Evaluator</a></td>
                           </tr>
                           <tr>
                             
@@ -118,7 +118,8 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportilegg"><button class="bg-green-600 px-1 py-1 text-center">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg" class="bg-green-600 px-1 py-1 text-center text-xs py-2 px-2 rounded-md shadow-md hover:bg-green-400 text-[#fff]  ">View Evaluator</a></td>
+
   
                           </tr>
                           <tr>
@@ -127,7 +128,8 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportilegg"><button class="bg-green-600 px-1 py-1 text-center">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg" class="bg-green-600 px-1 py-1 text-center text-xs py-2 px-2 rounded-md shadow-md hover:bg-green-400 text-[#fff]  ">View Evaluator</a></td>
+
   
                           </tr>
                           <tr>
@@ -136,7 +138,8 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportilegg"><button class="bg-green-600 px-1 py-1 text-center">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg" class="bg-green-600 px-1 py-1 text-center text-xs py-2 px-2 rounded-md shadow-md hover:bg-green-400 text-[#fff]  ">View Evaluator</a></td>
+
                           </tr>
                            <tr>
                             <td>Faculty 5</td>
@@ -144,7 +147,8 @@
                             <td>20%</td>
                             <td>20%</td>
                             <td>30% </td>
-                            <td><a href="FacultyReportilegg"><button class="bg-green-600 px-1 py-1 text-center">View Evaluator</button></a></td>
+                            <td><a href="FacultyReportilegg" class="bg-green-600 px-1 py-1 text-center text-xs py-2 px-2 rounded-md shadow-md hover:bg-green-400 text-[#fff]  ">View Evaluator</a></td>
+
                           </tr>
                         </tbody>
                       </table>

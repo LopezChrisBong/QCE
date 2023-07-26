@@ -1,6 +1,6 @@
 <template>
     <div
-      class="sidebar "
+      class="sidebar border"
       :class="isOpened ? 'open' : ''"
       :style="cssVars"
     >
@@ -8,13 +8,16 @@
         class="logo-details"
         style="margin: 6px 14px 0 14px"
       >
-        <img
+       <!--<img
           v-if="menuLogo"
           :src="menuLogo"
           alt="menu-logo"
           class="menu-logo icon"
         >
-        
+      --> 
+      <img src="../../../assets/pix/QCE_logo.png"
+      class="menu-logo icon"
+       />
         <!--<i
           v-else
           class="bx icon"
