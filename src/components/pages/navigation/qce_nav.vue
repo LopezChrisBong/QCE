@@ -13,10 +13,10 @@
         </div>
         <div class="flex mr-4 z-index-1">
             <select class="rouded-lg">
-                <option></option>
+              <option @click="logout">Logout</option>
                 <option>Setting</option>
                 <option>Profile</option>
-                <option>Logout</option>
+                
             </select>
             <img src="../../assets/pix/Profile.png" alt="" width="58" >
         </div>
@@ -39,6 +39,13 @@
     export default{
         components:{
           Sidebarmob
+        },
+        methods:{
+        logout(){
+             localStorage.clear();
+             this.$router.push({path:'/'})
         }
+    }
+
     }
 </script>

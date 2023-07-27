@@ -40,13 +40,25 @@ import Choose from '../components/pages/choose.vue'
 import Quiz from '../components/pages/quiz.vue'
 import Tables from '../components/pages/Table.vue'
 import PrintReport from '../components/pages/printreport.vue'
-
+import Login from '../components/view/login.vue'
+import SignUp from '../components/view/signup.vue'
 
 const routes =[
     {
         path: '/',
+        name: 'Login',
+        component: Login
+    },
+    {
+        path: '/home',
         name: 'Home',
         component: Home
+    },
+    
+    {
+        path: '/signup',
+        name: 'SignUp',
+        component: SignUp
     },
     {
         path: '/nav',
@@ -250,7 +262,22 @@ const routes =[
 
 const router = createRouter({
     history:createWebHistory(),
-    routes
-})
+    routes,
+});
+router.beforeEach( (to,from,next) => {
+    let routerAuthCheck = true;
+        if (to.matched.some(record => record.meta.requiresAuth)){
+            if(routerAuthCheck){
+                next();
+            }
+            else{
+                router.replace('/')
+            }
+        }
+        else{
+          next();
+        }
+  });
+
 
 export default router
