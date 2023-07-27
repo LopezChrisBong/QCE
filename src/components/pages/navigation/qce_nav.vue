@@ -13,12 +13,13 @@
         </div>
         <div class="flex mr-4 z-index-1">
             <select class="rouded-lg">
-              <option @click="logout">Logout</option>
+                <option></option>
                 <option>Setting</option>
                 <option>Profile</option>
+                 <option @click="logout">Logout</option>
                 
             </select>
-            <img src="../../assets/pix/Profile.png" alt="" width="58" >
+           <!-- <img src="../../assets/pix/Profile.png" alt="" width="58" >-->
         </div>
   </div>
   <div class="hidden">

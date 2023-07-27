@@ -123,10 +123,5 @@
     margin-top: 1rem;
    }
 
-   @max-width (820px){
-    #header{
-        width: 50%;
-    }
-   }
  
 </style>
