@@ -2,7 +2,6 @@
 <template>
 <div>
  <Nav/>
-    <Sidebar/>
     <router-view/>
 </div>
    

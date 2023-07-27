@@ -24,9 +24,11 @@
 
 <script>
 import axios from 'axios'
+
 export default {
     name: 'login',
     data(){
+
         return{
             email:'',
             password:''
@@ -40,14 +42,14 @@ export default {
             if(result.status == 200)
             {
             localStorage.setItem("user-info",JSON.stringify(result.data[0]))
-            this.$router.push({name:'home'})
+            this.$router.push({path:'/home'})
            }
         }
     },  
     mounted(){
         let user =localStorage.getItem('user-info');
         if(user){
-            this.$router.push({name:'home'})
+            this.$router.push({path:'/home'})
         }
     }
 }

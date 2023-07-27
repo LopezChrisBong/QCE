@@ -179,11 +179,12 @@
               </div>
             </div>
           </div>
-          <i
+          <i 
             v-if="isExitButton"
             class="bx bx-log-out"
             id="log_out"
             @click.stop="$emit('button-exit-clicked')"
+            @click="logout"
           />
         </div>
       </div>
@@ -194,6 +195,7 @@
   <script>
   import Icon from '../../icon.vue'
     export default {
+
       components:{
         Icon
       },
@@ -399,6 +401,11 @@
             })
           })
         },
+        logout(){
+             localStorage.clear();
+             this.$router.push({path:'/'})
+        }
+
       },
     }
   </script>
