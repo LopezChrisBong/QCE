@@ -43,11 +43,11 @@ export default {
             data.append('username',this.Admin.username);
             data.append('password',this.Admin.password);
             axios.post('http://localhost/QCE/src/Api/api.php?action=login',data).then((res)=>{
-                if(res.error){
-                    console.log("Error",res);
+                if(res.data.error){
+                    console.log("Error",res.data);
                 }
                 else{
-                    console.log("Success",res);
+                    console.log("Success",res.data.message);
                     this.$router.push("/home")
                 }
                 
