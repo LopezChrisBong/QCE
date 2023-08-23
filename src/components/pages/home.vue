@@ -5,7 +5,9 @@
             <div class="grid grid-cols-1 lg:gap-20 gap-6 mb-6 lg:grid-cols-4">
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
-                  <div class="row-span-3 bg-green-500 border rounded-md h-16 w-16 -mr-16"> </div>
+                  <div class="row-span-3 bg-green-500 border rounded-md h-16 w-16 -mr-16">
+                    <Icon :name="'student'" />
+                  </div>
                     <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Students
                     </div>
@@ -23,7 +25,9 @@
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
-                  <div class="row-span-3 bg-blue-500 border rounded-md h-16 w-16 -mr-16"> </div>
+                  <div class="row-span-3 bg-blue-500 border rounded-md h-16 w-16 -mr-16">
+                    <Icon :name="'freinds'" />
+                  </div>
 
                     <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Peer
@@ -41,7 +45,9 @@
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
-                  <div class="row-span-3 bg-orange-500 border rounded-md h-16  w-16 -mr-16"> </div>
+                  <div class="row-span-3 bg-orange-500 border rounded-md h-16  w-16 -mr-16">
+                    <Icon :name="'Self'" />    
+                  </div>
                     <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Self
                     </div>
@@ -58,7 +64,9 @@
                 </div>
                 <div class="w-full px-4 py-5 bg-white rounded-lg shadow">
                   <div class="grid grid-rows-3 grid-flow-col gap-">
-                  <div class="row-span-3 bg-violet-500 border rounded-md h-16 w-16 -mr-16"> </div>
+                  <div class="row-span-3 bg-violet-500 border rounded-md h-16 w-16 -mr-16">
+                  <Icon :name="'supervisor'" />
+                  </div>
                     <div class="mt-1 lg:text-xl  text-lg font-semibold text-gray-900">
                         Supervisor
                     </div>
@@ -199,15 +207,16 @@
 
 </template>
 <script> 
-import Icon from '../icon.vue'
+import Icon from '../icon.vue';
 import SidebarmobVue from './navigation/sidebarmob.vue';
 import Table from './Table.vue';
 export default {
   components: {
     Icon,
     Table,
-    SidebarmobVue
-  },
+    SidebarmobVue,
+    Icon
+},
   methods: {
     view(){
       

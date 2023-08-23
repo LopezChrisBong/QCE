@@ -2,39 +2,25 @@
 
 include "db.php";
 
-if(isset($_SERVER['HTTP_ORIGIN'])){
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Credentials: true');
-    header('Access-Control-Max-Age: 1000');
-}
-if($_SERVER['REQUEST_METHOD']== 'OPTIONS'){
-    if(isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'])){
-        header("Access-Control-Allow-Headers: POST, GET, OPTIONS, PUT, DELETE");
-    }
-    if(isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'])){
-        header("Access-Control-Allow-Headers: Accept, COntent-Type, Content-Length, Access-Encoding, 
-        X-CSRF-Token,Authorizetion");
-    }
-    exit(0);
-}
-$res =array('error' => false);
-$action='';
-
-if(isset($_GET['action'])){
-    $action=$_GET['action'];
-}
-if($action=="login"){
-    $sql="Select * from 1 `admin` where username='$username' AND password= '$password'";
-    $res = $conn->query($sql);
-    $num=mysqli_num_rows($res);
-    if($num > 0) {
-        $res['message'] ="Login Successfuly";
-    }
-    else{
-       $res['error']=true;
-       $res['message'] ="Your Login Email or Password is invalid";
-    }
-}
+//get data from form  
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$phone = $_POST['phone'];
+$email= $_POST['email'];
+$country = $_POST['country'];
+$subject = $_POST['subject'];
+$message= $_POST['message'];
 
 
+$to = "abdon.penalis54@gmail.com";
+$txt ="Phone: " . $phone .
+"\r\nFirstname: " . $fname . " " . $lname .
+"\r\nEmail: " . $email . "\r\nCountry: " . $country .
+"\r\nMessage: " . $message;
+$headers = "From: BongWebsite@message.com";
+if($email!=NULL){
+    mail($to,$subject,$txt,$headers);
+}
+//redirect
+header("Location:thankyou.html");
 ?>
