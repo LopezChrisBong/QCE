@@ -4,7 +4,7 @@
         <div class="flex justify-center shadow border w-6/12 lg:w-8/12 min-h-max">
             <div class="w-12/12">
                 <div class="flex justify-center">
-                     <img src="../../assets/pix/Capture.PNG" alt="Header" class="header" id="header" width="15rem">
+                     <img src="../../assets/pix/Capture.png" alt="Header" class="header" id="header" width="15rem">
                 </div>
                 <div class="flex justify-center"><p>_______________________________________________________________________________________________________________</p></div>
                 <div>
@@ -102,7 +102,7 @@
 
 
                 <div class="flex justify-center ">
-                    <img src="../../assets/pix/CaptureFooter.PNG" alt="Header" class="header w-11/12">
+                    <img src="../../assets/pix/CaptureFooter.png" alt="Header" class="header w-11/12">
                 </div>
             </div>   
         </div>
